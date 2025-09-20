@@ -5,6 +5,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+/**
+ * Manejador global de excepciones para error 404 y 500 del tipo HTTP
+ */
 @ControllerAdvice
 public class GlobalExceptionHandler {
 

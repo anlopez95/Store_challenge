@@ -2,6 +2,10 @@ package com.meli.Store.Data;
 
 import lombok.Data;
 
+/**
+ * Dto con información preguntas hechas sobre el producto
+ */
+
 @Data
 public class PreguntaDTO {
 	
