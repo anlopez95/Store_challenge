@@ -15,6 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.meli.Store.Data.VendedorDTO;
 import com.meli.Store.Repository.IVendedorRepository;
+import com.meli.Store.Utils.Constantes;
 
 import jakarta.annotation.PostConstruct;
 
@@ -23,7 +24,7 @@ import jakarta.annotation.PostConstruct;
 public class JsonVendedorRepository implements IVendedorRepository {
 
     private final ObjectMapper objectMapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
-    private final File storage = new File("vendedores.json");
+    private final File storage = new File(Constantes.ARCHIVO_VENDEDORES);
     private Map<String, VendedorDTO> vendedores = new HashMap<>();
 
     @PostConstruct
@@ -47,8 +48,8 @@ public class JsonVendedorRepository implements IVendedorRepository {
     }
 
     @Override
-    public void save(VendedorDTO vendedor) throws IOException {
-        vendedores.put(vendedor.getId(), vendedor);
+    public void save(VendedorDTO entity) throws IOException {
+        vendedores.put(entity.getId(), entity);
         persist();
     }
 

@@ -15,6 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.meli.Store.Data.ProductoDTO;
 import com.meli.Store.Repository.IProductRepository;
+import com.meli.Store.Utils.Constantes;
 
 import jakarta.annotation.PostConstruct;
 
@@ -23,7 +24,7 @@ import jakarta.annotation.PostConstruct;
 public class JsonProductRepository implements IProductRepository {
 
  private final ObjectMapper objectMapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
- private final File storage = new File("productos.json");
+ private final File storage = new File(Constantes.ARCHIVO_PRODUCTOS);
  private Map<String, ProductoDTO> productos = new HashMap<>();
 
  @PostConstruct
@@ -47,16 +48,16 @@ public class JsonProductRepository implements IProductRepository {
  }
 
  @Override
- public void save(ProductoDTO product) throws IOException {
-     productos.put(product.getId(), product);
-     persist();
- }
+ public void save(ProductoDTO entity) throws IOException {
+	    productos.put(entity.getId(), entity);
+	    persist(); // si falla, lanza IOException
+	}
 
  @Override
  public void delete(String id) throws IOException {
-     productos.remove(id);
-     persist();
- }
+	    productos.remove(id);
+	    persist();
+	}
 
  private void persist() throws IOException {
      objectMapper.writeValue(storage, productos.values());
