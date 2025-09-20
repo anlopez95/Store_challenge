@@ -13,7 +13,7 @@ public class ProductoDTO {
     private PrecioDTO precio;
     private InventarioDTO inventario;
     private List<ImagenDTO> imagenes;
-    private VendedorDTO vendedor;
+    private String vendedorId;
     private List<ReseñaDTO> reseñas;
     private List<PreguntaDTO> preguntas;
 }
