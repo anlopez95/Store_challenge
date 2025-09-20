@@ -1,0 +1,11 @@
+@startuml
+title GET /api/vendedores
+
+actor Cliente
+Cliente -> VendedorController : GET /api/vendedores
+VendedorController -> VendedorService : getAllVendedores()
+VendedorService -> IVendedorRepository : findAll()
+IVendedorRepository --> VendedorService : List<VendedorDTO>
+VendedorService --> VendedorController : List<VendedorDTO>
+VendedorController --> Cliente : 200 OK + [VendedorDTO...]
+@enduml

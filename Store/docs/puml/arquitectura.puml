@@ -1,0 +1,38 @@
+@startuml
+title Arquitectura simplificada Store
+
+package "API (Controller)" {
+  class ProductController
+  class VendedorController
+}
+
+package "Business (Service)" {
+  class ProductService
+  class VendedorService
+}
+
+package "Data Access (Repository)" {
+  interface IProductRepository
+  interface IVendedorRepository
+  class JsonProductRepository
+  class JsonVendedorRepository
+}
+
+package "Data" {
+  class ProductoDTO
+  class VendedorDTO
+}
+
+ProductController --> ProductService
+VendedorController --> VendedorService
+
+ProductService --> IProductRepository
+VendedorService --> IVendedorRepository
+
+JsonProductRepository ..|> IProductRepository
+JsonVendedorRepository ..|> IVendedorRepository
+
+ProductoDTO --> JsonProductRepository
+VendedorDTO --> JsonVendedorRepository
+
+@enduml

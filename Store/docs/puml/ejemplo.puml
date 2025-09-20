@@ -1,0 +1,9 @@
+@startuml
+actor Usuario
+Usuario -> Controlador : GET /api/productos
+Controlador -> Servicio : getAllProducts()
+Servicio -> Repositorio : findAll()
+Repositorio --> Servicio : Lista productos
+Servicio --> Controlador : Lista productos
+Controlador --> Usuario : JSON con productos
+@enduml

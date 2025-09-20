@@ -1,0 +1,11 @@
+@startuml
+title GET /api/productos/{id}
+
+actor Cliente
+Cliente -> ProductController : GET /api/productos/{id}
+ProductController -> ProductService : getProductById(id)
+ProductService -> IProductRepository : findById(id)
+IProductRepository --> ProductService : ProductoDTO
+ProductService --> ProductController : ProductoDTO
+ProductController --> Cliente : 200 OK + ProductoDTO
+@enduml

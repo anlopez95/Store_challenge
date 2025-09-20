@@ -1,0 +1,11 @@
+@startuml
+title PUT /api/productos/{id}
+
+actor Cliente
+Cliente -> ProductController : PUT /api/productos/{id} (body=ProductoDTO)
+ProductController -> ProductService : createOrUpdateProduct(producto)
+ProductService -> IProductRepository : save(producto)
+IProductRepository --> ProductService : void
+ProductService --> ProductController : ProductoDTO
+ProductController --> Cliente : 200 OK + ProductoDTO
+@enduml

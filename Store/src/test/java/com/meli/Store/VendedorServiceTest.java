@@ -1,8 +1,10 @@
 package com.meli.Store;
 
 import com.meli.Store.Business.VendedorService;
+import com.meli.Store.Data.ProductoDTO;
 import com.meli.Store.Data.VendedorDTO;
 import com.meli.Store.Exceptions.VendedorNotFoundException;
+import com.meli.Store.Repository.IProductRepository;
 import com.meli.Store.Repository.IVendedorRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -21,6 +23,9 @@ public class VendedorServiceTest {
 	
 	@Mock
     private IVendedorRepository vendedorRepository;
+	
+	@Mock
+	private IProductRepository productRepository;
 
     @InjectMocks
     private VendedorService vendedorService;
@@ -82,13 +87,27 @@ public class VendedorServiceTest {
 
     @Test
     void deleteVendedor_existente_eliminaCorrectamente() throws IOException {
+        // Arrange
         VendedorDTO vendedor = new VendedorDTO();
         vendedor.setId("v1");
 
-        when(vendedorRepository.findById("v1")).thenReturn(vendedor);
+        ProductoDTO producto1 = new ProductoDTO();
+        producto1.setId("p1");
+        producto1.setVendedorId("v1");
 
+        ProductoDTO producto2 = new ProductoDTO();
+        producto2.setId("p2");
+        producto2.setVendedorId("v1");
+
+        when(vendedorRepository.findById("v1")).thenReturn(vendedor);
+        when(productRepository.findAll()).thenReturn(Arrays.asList(producto1, producto2));
+
+        // Act
         vendedorService.deleteVendedor("v1");
 
+        // Assert
+        verify(productRepository, times(1)).delete("p1");
+        verify(productRepository, times(1)).delete("p2");
         verify(vendedorRepository, times(1)).delete("v1");
     }
 
@@ -99,5 +118,6 @@ public class VendedorServiceTest {
         assertThrows(VendedorNotFoundException.class,
                 () -> vendedorService.deleteVendedor("v99"));
     }
+    
 
 }
