@@ -16,21 +16,42 @@ public class VendedorController {
     @Autowired
     private VendedorService vendedorService;
 
+    /**
+     * Endpoint dedicado a obtener informacion de un vendedor.
+     * @param id Identificador del vendedor
+     * @return ResponseEntity Con la informacion del vendedor y los ids de los productos asociados
+     */
     @GetMapping("/{id}")
     public ResponseEntity<VendedorDTO> getVendedorById(@PathVariable String id) {
         return ResponseEntity.ok(vendedorService.getVendedorById(id));
     }
 
+    /**
+     * Endpoint dedicado a obtener informacion de todos los vendedores.
+     * @return ResponseEntity Con informacion de vendedores.
+     */
     @GetMapping
     public ResponseEntity<List<VendedorDTO>> getAllVendedores() {
         return ResponseEntity.ok(vendedorService.getAllVendedores());
     }
 
+    /**
+     * EndPoint dedicado a crear vendedores
+     * @param vendedor Parametro con la informacion del vendedor.
+     * @return ResponseEntity Con respuesta de creación.
+     * @throws IOException 
+     */
     @PostMapping
     public ResponseEntity<VendedorDTO> createVendedor(@RequestBody VendedorDTO vendedor) throws IOException {
         return ResponseEntity.ok(vendedorService.createOrUpdateVendedor(vendedor));
     }
 
+    /**
+     * EndPoint encargado de actualizar la información de un vendedor.
+     * @param id Identificador del vendedor a actualizar.
+     * @param vendedor Información del vendedor.
+     * @return ResponseEntity Con confirmacion del actualizado.
+     */
     @PutMapping("/{id}")
     public ResponseEntity<VendedorDTO> updateVendedor(
             @PathVariable String id,
@@ -40,9 +61,14 @@ public class VendedorController {
         return ResponseEntity.ok(vendedorService.createOrUpdateVendedor(vendedor));
     }
 
+    /**
+     * EndPoint dedicado a borrar a un vendedor
+     * @param id Identificador del vendedor a eliminar
+     * @return ResponseEntity Con la confirmacion del borrado
+     */
     @DeleteMapping("/{id}")
     public ResponseEntity<String> deleteVendedor(@PathVariable String id) {
         vendedorService.deleteVendedor(id);
-        return ResponseEntity.ok("Eliminado vendedor " + id + " correctamente");
+        return ResponseEntity.ok("Eliminado vendedor " + id + " y sus productos asociados correctamente");
     }
 }
