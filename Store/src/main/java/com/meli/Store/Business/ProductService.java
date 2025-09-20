@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.meli.Store.Data.ProductoDTO;
+import com.meli.Store.Exceptions.ProductNotFoundException;
 import com.meli.Store.Repository.IProductRepository;
 
 import lombok.RequiredArgsConstructor;
@@ -19,24 +20,35 @@ public class ProductService {
     private IProductRepository productRepository;
 
     public ProductoDTO getProductById(String id) {
-        return productRepository.findById(id);
+    	 ProductoDTO producto = productRepository.findById(id);
+         if (producto == null) {
+             throw new ProductNotFoundException("El producto con id " + id + " no existe");
+         }
+         return producto;
     }
 
     public List<ProductoDTO> getAllProducts() {
         return productRepository.findAll();
     }
 
-    public ProductoDTO createOrUpdateProduct(ProductoDTO producto) throws IOException {
-        productRepository.save(producto);
-        return producto;
+    public ProductoDTO createOrUpdateProduct(ProductoDTO producto) {
+    	try {
+            productRepository.save(producto);
+            return producto;
+        } catch (IOException e) {
+            throw new RuntimeException("Error al guardar el producto", e);
+        }
     }
     
-    public boolean deleteProduct(String id) throws IOException {
-        ProductoDTO producto = productRepository.findById(id);
+    public void deleteProduct(String id) {
+    	ProductoDTO producto = productRepository.findById(id);
         if (producto == null) {
-            return false;
+            throw new ProductNotFoundException("El producto con id " + id + " no existe");
         }
-        productRepository.delete(id);
-        return true;
+        try {
+            productRepository.delete(id);
+        } catch (IOException e) {
+            throw new RuntimeException("Error al eliminar el producto", e);
+        }
     }
 }
