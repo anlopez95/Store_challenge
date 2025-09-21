@@ -5,7 +5,7 @@ Bienvenido a la documentación del backend de **Store**, una API inspirada en Me
 ---
 
 ## 1️⃣ Introducción / Overview
-- API REST desarrollada con **Spring Boot 3.5.5**.  
+- API REST desarrollada con **Spring Boot 3.3.4**.  
 - Arquitectura basada en **principios SOLID** y **Clean Code**.  
 - Persistencia inicial en **archivos JSON**, preparada para escalar a una base de datos en el futuro.  
 - Documentación con **Swagger (OpenAPI)** y **Docsify + PlantUML**.
@@ -149,6 +149,34 @@ mvn test
 6. Testing
 
     - Se realizaron las pruebas unitarias con JUnit + Mockito.
+
+---
+
+## 🛠️ Technology Stack – Backend
+
+El backend de **Store API** está desarrollado con **Java 17** y **Spring Boot 3.3.4**, a continuación se listan algunas de las razones por las cuales se emplearon estas tecnologías a nivel de backend para dar cumplimiento al challenge propuesto.
+
+### 🔹 Razones para elegir **Java**
+- **Madurez y robustez**: Java es un lenguaje probado en producción durante más de dos décadas, lo que lo hace bastante fiable.  
+- **Portabilidad**: Java funciona en cualquier sistema gracias a la JVM.  
+- **Amplio ecosistema**: Existe una gran cantidad de librerías y frameworks para desarrollo empresarial.  
+- **Orientado a objetos**: Al ser POO facilita aplicar patrones de diseño y principios SOLID.  
+- **Soporte a largo plazo (LTS)**: Mantiene versiones estables y mantenidas por Oracle y la comunidad.  
+
+### 🔹 Razones para elegir **Spring Boot**
+- **Productividad**: Permite crear aplicaciones listas para producción con mínima configuración o acotando las mismas.  
+- **Inyección de dependencias (IoC)**: Permite mantener un código desacoplado y testeable.  
+- **Spring Data JPA / Flexibilidad de repositorios**: En este momento usando JSON como persistencia (Precondicion), pero escalable fácilmente a BD relacional o NoSQL sin cambiar la lógica de negocio.  
+- **Gestión de dependencias**: Maven y el ecosistema Spring simplifican la integración.  
+- **Documentación integrada**: Permite integración fluida con Swagger/OpenAPI.
+
+### 🔹 Otros componentes del stack empleados en el codigo
+- **Lombok** → Reduce el boilerplate en DTOs y entidades.  
+- **JUnit 5 + Mockito** → Usado para generar pruebas unitarias.  
+- **Springdoc OpenAPI** → Permite realizar la documentación automática de endpoints.  
+- **Docsify + PlantUML** → Genera documentación viva, versionada y visual (que es más atractivo).  
+
+Este grupo de tecnologias fue elegido para garantizar **escalabilidad, mantenibilidad y productividad**, ademas de ser el compendio tecnologico con el que más he tenido contacto en mi vida profesional, por lo cual lo considero idoneo para la realización de este challenge.
 
 ---
 
