@@ -1,0 +1,122 @@
+[
+    {
+        "id": "s1",
+        "nombre": "Deportes Ya",
+        "reputacion": 4.3,
+        "productosIds": [
+            "p1",
+            "p5",
+            "p16",
+            "p27",
+            "p33",
+            "p34",
+            "p35",
+            "p46"
+        ]
+    },
+    {
+        "id": "s2",
+        "nombre": "Gamer World",
+        "reputacion": 4.4,
+        "productosIds": [
+            "p2",
+            "p7",
+            "p14",
+            "p37",
+            "p45",
+            "p48"
+        ]
+    },
+    {
+        "id": "s7",
+        "nombre": "Smart Shop",
+        "reputacion": 4.7,
+        "productosIds": [
+            "p3",
+            "p28",
+            "p38"
+        ]
+    },
+    {
+        "id": "s5",
+        "nombre": "ElectroMundo",
+        "reputacion": 4.1,
+        "productosIds": [
+            "p4",
+            "p18",
+            "p22",
+            "p30"
+        ]
+    },
+    {
+        "id": "s10",
+        "nombre": "ElectroMundo",
+        "reputacion": 3.6,
+        "productosIds": [
+            "p6",
+            "p10",
+            "p23",
+            "p29",
+            "p39",
+            "p42",
+            "p49"
+        ]
+    },
+    {
+        "id": "s6",
+        "nombre": "Casa Hogar",
+        "reputacion": 4.1,
+        "productosIds": [
+            "p8",
+            "p11",
+            "p12",
+            "p31",
+            "p32",
+            "p36",
+            "p50"
+        ]
+    },
+    {
+        "id": "s8",
+        "nombre": "Accesorios VIP",
+        "reputacion": 3.3,
+        "productosIds": [
+            "p9",
+            "p13",
+            "p15",
+            "p40",
+            "p47"
+        ]
+    },
+    {
+        "id": "s4",
+        "nombre": "EcoVida",
+        "reputacion": 4.7,
+        "productosIds": [
+            "p17",
+            "p41",
+            "p44"
+        ]
+    },
+    {
+        "id": "s9",
+        "nombre": "Deportes Ya",
+        "reputacion": 4.0,
+        "productosIds": [
+            "p19",
+            "p20",
+            "p26",
+            "p43"
+        ]
+    },
+    {
+        "id": "s3",
+        "nombre": "ElectroMundo",
+        "reputacion": 4.9,
+        "productosIds": [
+            "p21",
+            "p24",
+            "p25"
+        ]
+    }
+]

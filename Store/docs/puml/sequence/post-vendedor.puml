@@ -1,0 +1,11 @@
+@startuml
+title POST /api/vendedores
+
+actor Cliente
+Cliente -> VendedorController : POST /api/vendedores (body=VendedorDTO)
+VendedorController -> VendedorService : createOrUpdateVendedor(vendedor)
+VendedorService -> IVendedorRepository : save(vendedor)
+IVendedorRepository --> VendedorService : void
+VendedorService --> VendedorController : VendedorDTO
+VendedorController --> Cliente : 200 OK + VendedorDTO
+@enduml

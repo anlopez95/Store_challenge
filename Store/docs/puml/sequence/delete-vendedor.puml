@@ -1,0 +1,29 @@
+@startuml
+title DELETE /api/vendedores/{id}
+
+actor Cliente
+Cliente -> VendedorController : DELETE /api/vendedores/{id}
+VendedorController -> VendedorService : deleteVendedor(id)
+VendedorService -> IVendedorRepository : findById(id)
+alt vendedor existe
+    IVendedorRepository --> VendedorService : VendedorDTO
+
+    VendedorService -> IProductRepository : findAll()
+    IProductRepository --> VendedorService : List<ProductoDTO>
+
+    loop productos asociados
+        VendedorService -> IProductRepository : delete(producto.id)
+        IProductRepository --> VendedorService : void
+    end
+
+    VendedorService -> IVendedorRepository : delete(id)
+    IVendedorRepository --> VendedorService : void
+
+    VendedorService --> VendedorController : OK
+    VendedorController --> Cliente : 200 OK + "Eliminado vendedor {id} y sus productos"
+else vendedor no existe
+    IVendedorRepository --> VendedorService : null
+    VendedorService --> VendedorController : throw VendedorNotFoundException
+    VendedorController --> Cliente : 404 Not Found
+end
+@enduml

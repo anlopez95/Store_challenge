@@ -1,0 +1,19 @@
+@startuml
+title DELETE /api/productos/{id}
+
+actor Cliente
+Cliente -> ProductController : DELETE /api/productos/{id}
+ProductController -> ProductService : deleteProduct(id)
+ProductService -> IProductRepository : findById(id)
+alt producto existe
+    IProductRepository --> ProductService : ProductoDTO
+    ProductService -> IProductRepository : delete(id)
+    IProductRepository --> ProductService : void
+    ProductService --> ProductController : OK
+    ProductController --> Cliente : 200 OK + "Eliminado producto {id}"
+else producto no existe
+    IProductRepository --> ProductService : null
+    ProductService --> ProductController : throw ProductNotFoundException
+    ProductController --> Cliente : 404 Not Found
+end
+@enduml

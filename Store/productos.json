@@ -1,2009 +1,2287 @@
-[ {
-  "id" : "p50",
-  "titulo" : "Disco Duro Externo",
-  "descripcion" : "Materiales resistentes y duraderos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 286.95
-  },
-  "inventario" : {
-    "disponible" : 99,
-    "vendidos" : 277
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/50_1.jpg",
-    "textoAlternativo" : "Imagen principal de Disco Duro Externo"
-  }, {
-    "url" : "http://img.com/50_2.jpg",
-    "textoAlternativo" : "Vista lateral de Disco Duro Externo"
-  } ],
-  "vendedor" : {
-    "id" : "s6",
-    "nombre" : "Smart Shop",
-    "reputacion" : 4.7
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u2",
-    "calificacion" : 5,
-    "comentario" : "No cumplió mis expectativas"
-  }, {
-    "usuarioId" : "u1",
-    "calificacion" : 5,
-    "comentario" : "Muy buen producto"
-  }, {
-    "usuarioId" : "u7",
-    "calificacion" : 1,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u6",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "El envío tarda entre 3 y 5 días."
-  }, {
-    "usuarioId" : "u8",
-    "pregunta" : "¿Tiene garantía?",
-    "respuesta" : "Sí, garantía de 1 año."
-  } ]
-}, {
-  "id" : "p10",
-  "titulo" : "Refrigerador Doble Puerta",
-  "descripcion" : "Recomendado por expertos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1730.11
-  },
-  "inventario" : {
-    "disponible" : 13,
-    "vendidos" : 415
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/10_1.jpg",
-    "textoAlternativo" : "Imagen principal de Refrigerador Doble Puerta"
-  }, {
-    "url" : "http://img.com/10_2.jpg",
-    "textoAlternativo" : "Vista lateral de Refrigerador Doble Puerta"
-  } ],
-  "vendedor" : {
-    "id" : "s10",
-    "nombre" : "Casa Hogar",
-    "reputacion" : 3.4
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u2",
-    "calificacion" : 3,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u2",
-    "calificacion" : 3,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u14",
-    "calificacion" : 2,
-    "comentario" : "Podría ser mejor"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u14",
-    "pregunta" : "¿Tiene garantía?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p12",
-  "titulo" : "Lavadora Automática",
-  "descripcion" : "Ideal para el uso diario.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1488.7
-  },
-  "inventario" : {
-    "disponible" : 38,
-    "vendidos" : 213
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/12_1.jpg",
-    "textoAlternativo" : "Imagen principal de Lavadora Automática"
-  }, {
-    "url" : "http://img.com/12_2.jpg",
-    "textoAlternativo" : "Vista lateral de Lavadora Automática"
-  } ],
-  "vendedor" : {
-    "id" : "s6",
-    "nombre" : "Accesorios VIP",
-    "reputacion" : 4.0
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u6",
-    "calificacion" : 5,
-    "comentario" : "No cumplió mis expectativas"
-  }, {
-    "usuarioId" : "u17",
-    "calificacion" : 2,
-    "comentario" : "Excelente calidad"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u16",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "Sí, garantía de 1 año."
-  } ]
-}, {
-  "id" : "p11",
-  "titulo" : "Horno Microondas",
-  "descripcion" : "Alta calidad y rendimiento.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 763.71
-  },
-  "inventario" : {
-    "disponible" : 13,
-    "vendidos" : 320
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/11_1.jpg",
-    "textoAlternativo" : "Imagen principal de Horno Microondas"
-  }, {
-    "url" : "http://img.com/11_2.jpg",
-    "textoAlternativo" : "Vista lateral de Horno Microondas"
-  } ],
-  "vendedor" : {
-    "id" : "s6",
-    "nombre" : "EcoVida",
-    "reputacion" : 5.0
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u20",
-    "calificacion" : 3,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u9",
-    "pregunta" : "¿Tiene garantía?",
-    "respuesta" : "Incluye todos los accesorios."
-  }, {
-    "usuarioId" : "u15",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p14",
-  "titulo" : "Cafetera Espresso",
-  "descripcion" : "Compacto y fácil de usar.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1156.03
-  },
-  "inventario" : {
-    "disponible" : 82,
-    "vendidos" : 471
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/14_1.jpg",
-    "textoAlternativo" : "Imagen principal de Cafetera Espresso"
-  }, {
-    "url" : "http://img.com/14_2.jpg",
-    "textoAlternativo" : "Vista lateral de Cafetera Espresso"
-  } ],
-  "vendedor" : {
-    "id" : "s2",
-    "nombre" : "Casa Hogar",
-    "reputacion" : 4.0
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u8",
-    "calificacion" : 4,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u20",
-    "calificacion" : 4,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u4",
-    "calificacion" : 5,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u3",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "Puede devolverse en 30 días."
-  } ]
-}, {
-  "id" : "p13",
-  "titulo" : "Secadora de Ropa",
-  "descripcion" : "Alta calidad y rendimiento.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 805.79
-  },
-  "inventario" : {
-    "disponible" : 5,
-    "vendidos" : 276
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/13_1.jpg",
-    "textoAlternativo" : "Imagen principal de Secadora de Ropa"
-  }, {
-    "url" : "http://img.com/13_2.jpg",
-    "textoAlternativo" : "Vista lateral de Secadora de Ropa"
-  } ],
-  "vendedor" : {
-    "id" : "s8",
-    "nombre" : "Joyería Fina",
-    "reputacion" : 5.0
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u17",
-    "calificacion" : 4,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u3",
-    "calificacion" : 4,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u1",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Sí, garantía de 1 año."
-  }, {
-    "usuarioId" : "u12",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p16",
-  "titulo" : "Teclado Mecánico",
-  "descripcion" : "Ideal para el uso diario.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 513.2
-  },
-  "inventario" : {
-    "disponible" : 40,
-    "vendidos" : 436
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/16_1.jpg",
-    "textoAlternativo" : "Imagen principal de Teclado Mecánico"
-  }, {
-    "url" : "http://img.com/16_2.jpg",
-    "textoAlternativo" : "Vista lateral de Teclado Mecánico"
-  } ],
-  "vendedor" : {
-    "id" : "s1",
-    "nombre" : "Tech Store",
-    "reputacion" : 4.9
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u3",
-    "calificacion" : 3,
-    "comentario" : "No cumplió mis expectativas"
-  }, {
-    "usuarioId" : "u13",
-    "calificacion" : 2,
-    "comentario" : "Satisfecho con la compra"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u17",
-    "pregunta" : "¿Tiene garantía?",
-    "respuesta" : "Puede devolverse en 30 días."
-  } ]
-}, {
-  "id" : "p15",
-  "titulo" : "Parlante Inteligente",
-  "descripcion" : "Compacto y fácil de usar.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 374.11
-  },
-  "inventario" : {
-    "disponible" : 89,
-    "vendidos" : 414
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/15_1.jpg",
-    "textoAlternativo" : "Imagen principal de Parlante Inteligente"
-  }, {
-    "url" : "http://img.com/15_2.jpg",
-    "textoAlternativo" : "Vista lateral de Parlante Inteligente"
-  } ],
-  "vendedor" : {
-    "id" : "s8",
-    "nombre" : "Deportes Ya",
-    "reputacion" : 3.8
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u9",
-    "calificacion" : 1,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u18",
-    "calificacion" : 3,
-    "comentario" : "Excelente calidad"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u4",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "Sí, garantía de 1 año."
-  }, {
-    "usuarioId" : "u17",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Puede devolverse en 30 días."
-  } ]
-}, {
-  "id" : "p18",
-  "titulo" : "Silla Ergonómica",
-  "descripcion" : "Alta calidad y rendimiento.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1151.18
-  },
-  "inventario" : {
-    "disponible" : 64,
-    "vendidos" : 104
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/18_1.jpg",
-    "textoAlternativo" : "Imagen principal de Silla Ergonómica"
-  }, {
-    "url" : "http://img.com/18_2.jpg",
-    "textoAlternativo" : "Vista lateral de Silla Ergonómica"
-  } ],
-  "vendedor" : {
-    "id" : "s5",
-    "nombre" : "Moda Urbana",
-    "reputacion" : 3.4
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u20",
-    "calificacion" : 3,
-    "comentario" : "Muy buen producto"
-  }, {
-    "usuarioId" : "u9",
-    "calificacion" : 1,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u7",
-    "calificacion" : 2,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u9",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "El envío tarda entre 3 y 5 días."
-  } ]
-}, {
-  "id" : "p17",
-  "titulo" : "Mouse Inalámbrico",
-  "descripcion" : "Recomendado por expertos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 679.07
-  },
-  "inventario" : {
-    "disponible" : 34,
-    "vendidos" : 30
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/17_1.jpg",
-    "textoAlternativo" : "Imagen principal de Mouse Inalámbrico"
-  }, {
-    "url" : "http://img.com/17_2.jpg",
-    "textoAlternativo" : "Vista lateral de Mouse Inalámbrico"
-  } ],
-  "vendedor" : {
-    "id" : "s4",
-    "nombre" : "EcoVida",
-    "reputacion" : 4.7
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u1",
-    "calificacion" : 4,
-    "comentario" : "No cumplió mis expectativas"
-  }, {
-    "usuarioId" : "u4",
-    "calificacion" : 3,
-    "comentario" : "No cumplió mis expectativas"
-  }, {
-    "usuarioId" : "u1",
-    "calificacion" : 3,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u14",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "Puede devolverse en 30 días."
-  } ]
-}, {
-  "id" : "p19",
-  "titulo" : "Escritorio Ajustable",
-  "descripcion" : "Perfecto para regalar.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 926.74
-  },
-  "inventario" : {
-    "disponible" : 28,
-    "vendidos" : 82
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/19_1.jpg",
-    "textoAlternativo" : "Imagen principal de Escritorio Ajustable"
-  }, {
-    "url" : "http://img.com/19_2.jpg",
-    "textoAlternativo" : "Vista lateral de Escritorio Ajustable"
-  } ],
-  "vendedor" : {
-    "id" : "s9",
-    "nombre" : "Deportes Ya",
-    "reputacion" : 4.0
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u15",
-    "calificacion" : 1,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u2",
-    "calificacion" : 1,
-    "comentario" : "Podría ser mejor"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u18",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "El envío tarda entre 3 y 5 días."
-  }, {
-    "usuarioId" : "u7",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "Incluye todos los accesorios."
-  } ]
-}, {
-  "id" : "p21",
-  "titulo" : "Chaqueta de Cuero",
-  "descripcion" : "Perfecto para regalar.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1999.8
-  },
-  "inventario" : {
-    "disponible" : 69,
-    "vendidos" : 334
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/21_1.jpg",
-    "textoAlternativo" : "Imagen principal de Chaqueta de Cuero"
-  }, {
-    "url" : "http://img.com/21_2.jpg",
-    "textoAlternativo" : "Vista lateral de Chaqueta de Cuero"
-  } ],
-  "vendedor" : {
-    "id" : "s3",
-    "nombre" : "ElectroMundo",
-    "reputacion" : 4.9
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u19",
-    "calificacion" : 3,
-    "comentario" : "Muy buen producto"
-  }, {
-    "usuarioId" : "u5",
-    "calificacion" : 2,
-    "comentario" : "Excelente calidad"
-  }, {
-    "usuarioId" : "u16",
-    "calificacion" : 5,
-    "comentario" : "Satisfecho con la compra"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u9",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "Sí, es resistente al agua."
-  }, {
-    "usuarioId" : "u6",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "El envío tarda entre 3 y 5 días."
-  } ]
-}, {
-  "id" : "p20",
-  "titulo" : "Monitor 27 pulgadas",
-  "descripcion" : "Incluye garantía de un año.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 193.94
-  },
-  "inventario" : {
-    "disponible" : 66,
-    "vendidos" : 78
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/20_1.jpg",
-    "textoAlternativo" : "Imagen principal de Monitor 27 pulgadas"
-  }, {
-    "url" : "http://img.com/20_2.jpg",
-    "textoAlternativo" : "Vista lateral de Monitor 27 pulgadas"
-  } ],
-  "vendedor" : {
-    "id" : "s9",
-    "nombre" : "Casa Hogar",
-    "reputacion" : 3.6
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u5",
-    "calificacion" : 2,
-    "comentario" : "Podría ser mejor"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u12",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Incluye todos los accesorios."
-  }, {
-    "usuarioId" : "u16",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p23",
-  "titulo" : "Bolso de Mano",
-  "descripcion" : "Incluye garantía de un año.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1276.85
-  },
-  "inventario" : {
-    "disponible" : 40,
-    "vendidos" : 356
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/23_1.jpg",
-    "textoAlternativo" : "Imagen principal de Bolso de Mano"
-  }, {
-    "url" : "http://img.com/23_2.jpg",
-    "textoAlternativo" : "Vista lateral de Bolso de Mano"
-  } ],
-  "vendedor" : {
-    "id" : "s10",
-    "nombre" : "EcoVida",
-    "reputacion" : 3.9
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u14",
-    "calificacion" : 2,
-    "comentario" : "Excelente calidad"
-  }, {
-    "usuarioId" : "u6",
-    "calificacion" : 5,
-    "comentario" : "Podría ser mejor"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u9",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "Sí, garantía de 1 año."
-  } ]
-}, {
-  "id" : "p22",
-  "titulo" : "Zapatillas Deportivas",
-  "descripcion" : "Alta calidad y rendimiento.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1297.93
-  },
-  "inventario" : {
-    "disponible" : 60,
-    "vendidos" : 71
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/22_1.jpg",
-    "textoAlternativo" : "Imagen principal de Zapatillas Deportivas"
-  }, {
-    "url" : "http://img.com/22_2.jpg",
-    "textoAlternativo" : "Vista lateral de Zapatillas Deportivas"
-  } ],
-  "vendedor" : {
-    "id" : "s5",
-    "nombre" : "Casa Hogar",
-    "reputacion" : 4.5
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u10",
-    "calificacion" : 1,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u18",
-    "calificacion" : 2,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u10",
-    "calificacion" : 4,
-    "comentario" : "Excelente calidad"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u16",
-    "pregunta" : "¿Tiene garantía?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p25",
-  "titulo" : "Lentes de Sol",
-  "descripcion" : "Recomendado por expertos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 211.62
-  },
-  "inventario" : {
-    "disponible" : 76,
-    "vendidos" : 383
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/25_1.jpg",
-    "textoAlternativo" : "Imagen principal de Lentes de Sol"
-  }, {
-    "url" : "http://img.com/25_2.jpg",
-    "textoAlternativo" : "Vista lateral de Lentes de Sol"
-  } ],
-  "vendedor" : {
-    "id" : "s3",
-    "nombre" : "Tech Store",
-    "reputacion" : 4.4
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u8",
-    "calificacion" : 2,
-    "comentario" : "No cumplió mis expectativas"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u16",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "Sí, es resistente al agua."
-  }, {
-    "usuarioId" : "u12",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p24",
-  "titulo" : "Reloj de Pulsera",
-  "descripcion" : "Ideal para el uso diario.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 37.32
-  },
-  "inventario" : {
-    "disponible" : 16,
-    "vendidos" : 314
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/24_1.jpg",
-    "textoAlternativo" : "Imagen principal de Reloj de Pulsera"
-  }, {
-    "url" : "http://img.com/24_2.jpg",
-    "textoAlternativo" : "Vista lateral de Reloj de Pulsera"
-  } ],
-  "vendedor" : {
-    "id" : "s3",
-    "nombre" : "ElectroMundo",
-    "reputacion" : 4.2
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u12",
-    "calificacion" : 4,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u12",
-    "calificacion" : 5,
-    "comentario" : "Excelente calidad"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u8",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "Puede devolverse en 30 días."
-  } ]
-}, {
-  "id" : "p27",
-  "titulo" : "Billetera de Piel",
-  "descripcion" : "Materiales resistentes y duraderos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 152.35
-  },
-  "inventario" : {
-    "disponible" : 9,
-    "vendidos" : 124
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/27_1.jpg",
-    "textoAlternativo" : "Imagen principal de Billetera de Piel"
-  }, {
-    "url" : "http://img.com/27_2.jpg",
-    "textoAlternativo" : "Vista lateral de Billetera de Piel"
-  } ],
-  "vendedor" : {
-    "id" : "s1",
-    "nombre" : "Moda Urbana",
-    "reputacion" : 4.6
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u7",
-    "calificacion" : 5,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u19",
-    "calificacion" : 4,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u4",
-    "calificacion" : 5,
-    "comentario" : "No cumplió mis expectativas"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u4",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "El envío tarda entre 3 y 5 días."
-  } ]
-}, {
-  "id" : "p26",
-  "titulo" : "Cinturón de Cuero",
-  "descripcion" : "Edición limitada.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1029.53
-  },
-  "inventario" : {
-    "disponible" : 48,
-    "vendidos" : 109
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/26_1.jpg",
-    "textoAlternativo" : "Imagen principal de Cinturón de Cuero"
-  }, {
-    "url" : "http://img.com/26_2.jpg",
-    "textoAlternativo" : "Vista lateral de Cinturón de Cuero"
-  } ],
-  "vendedor" : {
-    "id" : "s9",
-    "nombre" : "Smart Shop",
-    "reputacion" : 3.0
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u15",
-    "calificacion" : 2,
-    "comentario" : "No cumplió mis expectativas"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u6",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "Incluye todos los accesorios."
-  }, {
-    "usuarioId" : "u17",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "Sí, garantía de 1 año."
-  } ]
-}, {
-  "id" : "p29",
-  "titulo" : "Camiseta Básica",
-  "descripcion" : "Última generación.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 843.02
-  },
-  "inventario" : {
-    "disponible" : 45,
-    "vendidos" : 366
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/29_1.jpg",
-    "textoAlternativo" : "Imagen principal de Camiseta Básica"
-  }, {
-    "url" : "http://img.com/29_2.jpg",
-    "textoAlternativo" : "Vista lateral de Camiseta Básica"
-  } ],
-  "vendedor" : {
-    "id" : "s10",
-    "nombre" : "Moda Urbana",
-    "reputacion" : 3.6
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u19",
-    "calificacion" : 2,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u10",
-    "calificacion" : 4,
-    "comentario" : "Podría ser mejor"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u19",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "Incluye todos los accesorios."
-  } ]
-}, {
-  "id" : "p28",
-  "titulo" : "Pantalón Jeans",
-  "descripcion" : "Incluye garantía de un año.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 649.2
-  },
-  "inventario" : {
-    "disponible" : 98,
-    "vendidos" : 494
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/28_1.jpg",
-    "textoAlternativo" : "Imagen principal de Pantalón Jeans"
-  }, {
-    "url" : "http://img.com/28_2.jpg",
-    "textoAlternativo" : "Vista lateral de Pantalón Jeans"
-  } ],
-  "vendedor" : {
-    "id" : "s7",
-    "nombre" : "Gamer World",
-    "reputacion" : 4.9
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u3",
-    "calificacion" : 5,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u5",
-    "calificacion" : 3,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u20",
-    "calificacion" : 5,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u3",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "El envío tarda entre 3 y 5 días."
-  }, {
-    "usuarioId" : "u18",
-    "pregunta" : "¿Tiene garantía?",
-    "respuesta" : "Sí, garantía de 1 año."
-  } ]
-}, {
-  "id" : "p1",
-  "titulo" : "Laptop Gamer",
-  "descripcion" : "Compacto y fácil de usar.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 854.57
-  },
-  "inventario" : {
-    "disponible" : 30,
-    "vendidos" : 273
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/1_1.jpg",
-    "textoAlternativo" : "Imagen principal de Laptop Gamer"
-  }, {
-    "url" : "http://img.com/1_2.jpg",
-    "textoAlternativo" : "Vista lateral de Laptop Gamer"
-  } ],
-  "vendedor" : {
-    "id" : "s1",
-    "nombre" : "Deportes Ya",
-    "reputacion" : 4.3
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u10",
-    "calificacion" : 1,
-    "comentario" : "Excelente calidad"
-  }, {
-    "usuarioId" : "u7",
-    "calificacion" : 5,
-    "comentario" : "No cumplió mis expectativas"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u1",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Incluye todos los accesorios."
-  }, {
-    "usuarioId" : "u4",
-    "pregunta" : "¿Tiene garantía?",
-    "respuesta" : "Puede devolverse en 30 días."
-  } ]
-}, {
-  "id" : "p2",
-  "titulo" : "Smartphone Pro",
-  "descripcion" : "Recomendado por expertos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1727.41
-  },
-  "inventario" : {
-    "disponible" : 43,
-    "vendidos" : 97
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/2_1.jpg",
-    "textoAlternativo" : "Imagen principal de Smartphone Pro"
-  }, {
-    "url" : "http://img.com/2_2.jpg",
-    "textoAlternativo" : "Vista lateral de Smartphone Pro"
-  } ],
-  "vendedor" : {
-    "id" : "s2",
-    "nombre" : "Gamer World",
-    "reputacion" : 4.4
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u13",
-    "calificacion" : 5,
-    "comentario" : "Excelente calidad"
-  }, {
-    "usuarioId" : "u2",
-    "calificacion" : 3,
-    "comentario" : "Satisfecho con la compra"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u17",
-    "pregunta" : "¿Tiene garantía?",
-    "respuesta" : "Sí, es resistente al agua."
-  }, {
-    "usuarioId" : "u8",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p3",
-  "titulo" : "Televisor 55 pulgadas",
-  "descripcion" : "Diseño moderno y elegante.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 27.72
-  },
-  "inventario" : {
-    "disponible" : 98,
-    "vendidos" : 71
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/3_1.jpg",
-    "textoAlternativo" : "Imagen principal de Televisor 55 pulgadas"
-  }, {
-    "url" : "http://img.com/3_2.jpg",
-    "textoAlternativo" : "Vista lateral de Televisor 55 pulgadas"
-  } ],
-  "vendedor" : {
-    "id" : "s7",
-    "nombre" : "Smart Shop",
-    "reputacion" : 4.7
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u12",
-    "calificacion" : 3,
-    "comentario" : "Muy buen producto"
-  }, {
-    "usuarioId" : "u14",
-    "calificacion" : 3,
-    "comentario" : "No cumplió mis expectativas"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u17",
-    "pregunta" : "¿Tiene garantía?",
-    "respuesta" : "Incluye todos los accesorios."
-  } ]
-}, {
-  "id" : "p4",
-  "titulo" : "Auriculares Bluetooth",
-  "descripcion" : "Materiales resistentes y duraderos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 731.2
-  },
-  "inventario" : {
-    "disponible" : 99,
-    "vendidos" : 28
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/4_1.jpg",
-    "textoAlternativo" : "Imagen principal de Auriculares Bluetooth"
-  }, {
-    "url" : "http://img.com/4_2.jpg",
-    "textoAlternativo" : "Vista lateral de Auriculares Bluetooth"
-  } ],
-  "vendedor" : {
-    "id" : "s5",
-    "nombre" : "ElectroMundo",
-    "reputacion" : 4.1
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u10",
-    "calificacion" : 1,
-    "comentario" : "Excelente calidad"
-  }, {
-    "usuarioId" : "u4",
-    "calificacion" : 1,
-    "comentario" : "Excelente calidad"
-  }, {
-    "usuarioId" : "u6",
-    "calificacion" : 4,
-    "comentario" : "No cumplió mis expectativas"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u10",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p5",
-  "titulo" : "Consola de videojuegos",
-  "descripcion" : "Compacto y fácil de usar.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1809.1
-  },
-  "inventario" : {
-    "disponible" : 44,
-    "vendidos" : 3
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/5_1.jpg",
-    "textoAlternativo" : "Imagen principal de Consola de videojuegos"
-  }, {
-    "url" : "http://img.com/5_2.jpg",
-    "textoAlternativo" : "Vista lateral de Consola de videojuegos"
-  } ],
-  "vendedor" : {
-    "id" : "s1",
-    "nombre" : "Moda Urbana",
-    "reputacion" : 4.8
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u18",
-    "calificacion" : 3,
-    "comentario" : "Muy buen producto"
-  }, {
-    "usuarioId" : "u4",
-    "calificacion" : 2,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u18",
-    "calificacion" : 4,
-    "comentario" : "Podría ser mejor"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u1",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "Incluye todos los accesorios."
-  }, {
-    "usuarioId" : "u19",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "Incluye todos los accesorios."
-  } ]
-}, {
-  "id" : "p6",
-  "titulo" : "Cámara Fotográfica",
-  "descripcion" : "Materiales resistentes y duraderos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1158.15
-  },
-  "inventario" : {
-    "disponible" : 100,
-    "vendidos" : 353
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/6_1.jpg",
-    "textoAlternativo" : "Imagen principal de Cámara Fotográfica"
-  }, {
-    "url" : "http://img.com/6_2.jpg",
-    "textoAlternativo" : "Vista lateral de Cámara Fotográfica"
-  } ],
-  "vendedor" : {
-    "id" : "s10",
-    "nombre" : "ElectroMundo",
-    "reputacion" : 3.6
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u15",
-    "calificacion" : 4,
-    "comentario" : "Satisfecho con la compra"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u2",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p7",
-  "titulo" : "Smartwatch Deportivo",
-  "descripcion" : "Última generación.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 443.3
-  },
-  "inventario" : {
-    "disponible" : 66,
-    "vendidos" : 149
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/7_1.jpg",
-    "textoAlternativo" : "Imagen principal de Smartwatch Deportivo"
-  }, {
-    "url" : "http://img.com/7_2.jpg",
-    "textoAlternativo" : "Vista lateral de Smartwatch Deportivo"
-  } ],
-  "vendedor" : {
-    "id" : "s2",
-    "nombre" : "Moda Urbana",
-    "reputacion" : 3.3
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u15",
-    "calificacion" : 4,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u6",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "El envío tarda entre 3 y 5 días."
-  } ]
-}, {
-  "id" : "p8",
-  "titulo" : "Tablet 10 pulgadas",
-  "descripcion" : "Última generación.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 636.31
-  },
-  "inventario" : {
-    "disponible" : 9,
-    "vendidos" : 334
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/8_1.jpg",
-    "textoAlternativo" : "Imagen principal de Tablet 10 pulgadas"
-  }, {
-    "url" : "http://img.com/8_2.jpg",
-    "textoAlternativo" : "Vista lateral de Tablet 10 pulgadas"
-  } ],
-  "vendedor" : {
-    "id" : "s6",
-    "nombre" : "Casa Hogar",
-    "reputacion" : 4.1
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u19",
-    "calificacion" : 5,
-    "comentario" : "Podría ser mejor"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u15",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Sí, garantía de 1 año."
-  } ]
-}, {
-  "id" : "p9",
-  "titulo" : "Aspiradora Robot",
-  "descripcion" : "Alta calidad y rendimiento.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1289.73
-  },
-  "inventario" : {
-    "disponible" : 97,
-    "vendidos" : 457
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/9_1.jpg",
-    "textoAlternativo" : "Imagen principal de Aspiradora Robot"
-  }, {
-    "url" : "http://img.com/9_2.jpg",
-    "textoAlternativo" : "Vista lateral de Aspiradora Robot"
-  } ],
-  "vendedor" : {
-    "id" : "s8",
-    "nombre" : "Accesorios VIP",
-    "reputacion" : 3.3
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u14",
-    "calificacion" : 5,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u11",
-    "calificacion" : 4,
-    "comentario" : "Podría ser mejor"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u19",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Sí, garantía de 1 año."
-  }, {
-    "usuarioId" : "u8",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "Sí, garantía de 1 año."
-  } ]
-}, {
-  "id" : "p30",
-  "titulo" : "Vestido Casual",
-  "descripcion" : "Materiales resistentes y duraderos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1206.84
-  },
-  "inventario" : {
-    "disponible" : 74,
-    "vendidos" : 474
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/30_1.jpg",
-    "textoAlternativo" : "Imagen principal de Vestido Casual"
-  }, {
-    "url" : "http://img.com/30_2.jpg",
-    "textoAlternativo" : "Vista lateral de Vestido Casual"
-  } ],
-  "vendedor" : {
-    "id" : "s5",
-    "nombre" : "Gamer World",
-    "reputacion" : 3.2
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u7",
-    "calificacion" : 4,
-    "comentario" : "No cumplió mis expectativas"
-  }, {
-    "usuarioId" : "u8",
-    "calificacion" : 5,
-    "comentario" : "Excelente calidad"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u11",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "El envío tarda entre 3 y 5 días."
-  } ]
-}, {
-  "id" : "p32",
-  "titulo" : "Aretes de Oro",
-  "descripcion" : "Ideal para el uso diario.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 92.04
-  },
-  "inventario" : {
-    "disponible" : 10,
-    "vendidos" : 144
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/32_1.jpg",
-    "textoAlternativo" : "Imagen principal de Aretes de Oro"
-  }, {
-    "url" : "http://img.com/32_2.jpg",
-    "textoAlternativo" : "Vista lateral de Aretes de Oro"
-  } ],
-  "vendedor" : {
-    "id" : "s6",
-    "nombre" : "Joyería Fina",
-    "reputacion" : 4.0
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u11",
-    "calificacion" : 4,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u20",
-    "calificacion" : 4,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u12",
-    "pregunta" : "¿Tiene garantía?",
-    "respuesta" : "Incluye todos los accesorios."
-  }, {
-    "usuarioId" : "u6",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Incluye todos los accesorios."
-  } ]
-}, {
-  "id" : "p31",
-  "titulo" : "Collar de Plata",
-  "descripcion" : "Materiales resistentes y duraderos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1960.71
-  },
-  "inventario" : {
-    "disponible" : 9,
-    "vendidos" : 68
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/31_1.jpg",
-    "textoAlternativo" : "Imagen principal de Collar de Plata"
-  }, {
-    "url" : "http://img.com/31_2.jpg",
-    "textoAlternativo" : "Vista lateral de Collar de Plata"
-  } ],
-  "vendedor" : {
-    "id" : "s6",
-    "nombre" : "Joyería Fina",
-    "reputacion" : 3.7
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u6",
-    "calificacion" : 1,
-    "comentario" : "Podría ser mejor"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u8",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "Sí, garantía de 1 año."
-  }, {
-    "usuarioId" : "u3",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "El envío tarda entre 3 y 5 días."
-  } ]
-}, {
-  "id" : "p34",
-  "titulo" : "Sombrero de Verano",
-  "descripcion" : "Edición limitada.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1448.93
-  },
-  "inventario" : {
-    "disponible" : 51,
-    "vendidos" : 317
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/34_1.jpg",
-    "textoAlternativo" : "Imagen principal de Sombrero de Verano"
-  }, {
-    "url" : "http://img.com/34_2.jpg",
-    "textoAlternativo" : "Vista lateral de Sombrero de Verano"
-  } ],
-  "vendedor" : {
-    "id" : "s1",
-    "nombre" : "Joyería Fina",
-    "reputacion" : 4.4
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u19",
-    "calificacion" : 2,
-    "comentario" : "Excelente calidad"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u2",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "Incluye todos los accesorios."
-  }, {
-    "usuarioId" : "u8",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "Sí, garantía de 1 año."
-  } ]
-}, {
-  "id" : "p33",
-  "titulo" : "Pulsera de Acero",
-  "descripcion" : "Compacto y fácil de usar.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 752.1
-  },
-  "inventario" : {
-    "disponible" : 97,
-    "vendidos" : 165
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/33_1.jpg",
-    "textoAlternativo" : "Imagen principal de Pulsera de Acero"
-  }, {
-    "url" : "http://img.com/33_2.jpg",
-    "textoAlternativo" : "Vista lateral de Pulsera de Acero"
-  } ],
-  "vendedor" : {
-    "id" : "s1",
-    "nombre" : "Joyería Fina",
-    "reputacion" : 3.4
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u12",
-    "calificacion" : 1,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u11",
-    "calificacion" : 4,
-    "comentario" : "Satisfecho con la compra"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u19",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "Sí, es resistente al agua."
-  }, {
-    "usuarioId" : "u8",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p36",
-  "titulo" : "Guantes de Invierno",
-  "descripcion" : "Ideal para el uso diario.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1867.24
-  },
-  "inventario" : {
-    "disponible" : 33,
-    "vendidos" : 6
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/36_1.jpg",
-    "textoAlternativo" : "Imagen principal de Guantes de Invierno"
-  }, {
-    "url" : "http://img.com/36_2.jpg",
-    "textoAlternativo" : "Vista lateral de Guantes de Invierno"
-  } ],
-  "vendedor" : {
-    "id" : "s6",
-    "nombre" : "Tech Store",
-    "reputacion" : 4.6
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u10",
-    "calificacion" : 2,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u1",
-    "calificacion" : 5,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u6",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Incluye todos los accesorios."
-  } ]
-}, {
-  "id" : "p35",
-  "titulo" : "Bufanda de Lana",
-  "descripcion" : "Compacto y fácil de usar.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1156.16
-  },
-  "inventario" : {
-    "disponible" : 70,
-    "vendidos" : 204
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/35_1.jpg",
-    "textoAlternativo" : "Imagen principal de Bufanda de Lana"
-  }, {
-    "url" : "http://img.com/35_2.jpg",
-    "textoAlternativo" : "Vista lateral de Bufanda de Lana"
-  } ],
-  "vendedor" : {
-    "id" : "s1",
-    "nombre" : "Moda Urbana",
-    "reputacion" : 4.6
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u9",
-    "calificacion" : 2,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u1",
-    "calificacion" : 4,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u6",
-    "calificacion" : 1,
-    "comentario" : "Satisfecho con la compra"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u15",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p38",
-  "titulo" : "Botas de Montaña",
-  "descripcion" : "Compacto y fácil de usar.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 544.33
-  },
-  "inventario" : {
-    "disponible" : 8,
-    "vendidos" : 35
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/38_1.jpg",
-    "textoAlternativo" : "Imagen principal de Botas de Montaña"
-  }, {
-    "url" : "http://img.com/38_2.jpg",
-    "textoAlternativo" : "Vista lateral de Botas de Montaña"
-  } ],
-  "vendedor" : {
-    "id" : "s7",
-    "nombre" : "Moda Urbana",
-    "reputacion" : 3.1
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u13",
-    "calificacion" : 4,
-    "comentario" : "No cumplió mis expectativas"
-  }, {
-    "usuarioId" : "u6",
-    "calificacion" : 3,
-    "comentario" : "No cumplió mis expectativas"
-  }, {
-    "usuarioId" : "u8",
-    "calificacion" : 2,
-    "comentario" : "Excelente calidad"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u3",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Sí, garantía de 1 año."
-  } ]
-}, {
-  "id" : "p37",
-  "titulo" : "Chaqueta Impermeable",
-  "descripcion" : "Incluye garantía de un año.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1446.8
-  },
-  "inventario" : {
-    "disponible" : 64,
-    "vendidos" : 293
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/37_1.jpg",
-    "textoAlternativo" : "Imagen principal de Chaqueta Impermeable"
-  }, {
-    "url" : "http://img.com/37_2.jpg",
-    "textoAlternativo" : "Vista lateral de Chaqueta Impermeable"
-  } ],
-  "vendedor" : {
-    "id" : "s2",
-    "nombre" : "Joyería Fina",
-    "reputacion" : 4.2
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u17",
-    "calificacion" : 3,
-    "comentario" : "Muy buen producto"
-  }, {
-    "usuarioId" : "u7",
-    "calificacion" : 2,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u6",
-    "calificacion" : 5,
-    "comentario" : "No cumplió mis expectativas"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u1",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p39",
-  "titulo" : "Sandalias de Playa",
-  "descripcion" : "Materiales resistentes y duraderos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1673.33
-  },
-  "inventario" : {
-    "disponible" : 14,
-    "vendidos" : 294
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/39_1.jpg",
-    "textoAlternativo" : "Imagen principal de Sandalias de Playa"
-  }, {
-    "url" : "http://img.com/39_2.jpg",
-    "textoAlternativo" : "Vista lateral de Sandalias de Playa"
-  } ],
-  "vendedor" : {
-    "id" : "s10",
-    "nombre" : "Moda Urbana",
-    "reputacion" : 3.5
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u20",
-    "calificacion" : 3,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u20",
-    "calificacion" : 1,
-    "comentario" : "Excelente calidad"
-  }, {
-    "usuarioId" : "u2",
-    "calificacion" : 4,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u13",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p41",
-  "titulo" : "Libro de Ciencia",
-  "descripcion" : "Edición limitada.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1991.55
-  },
-  "inventario" : {
-    "disponible" : 38,
-    "vendidos" : 36
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/41_1.jpg",
-    "textoAlternativo" : "Imagen principal de Libro de Ciencia"
-  }, {
-    "url" : "http://img.com/41_2.jpg",
-    "textoAlternativo" : "Vista lateral de Libro de Ciencia"
-  } ],
-  "vendedor" : {
-    "id" : "s4",
-    "nombre" : "Gamer World",
-    "reputacion" : 3.9
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u9",
-    "calificacion" : 2,
-    "comentario" : "No cumplió mis expectativas"
-  }, {
-    "usuarioId" : "u6",
-    "calificacion" : 5,
-    "comentario" : "Satisfecho con la compra"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u16",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "Incluye todos los accesorios."
-  } ]
-}, {
-  "id" : "p40",
-  "titulo" : "Perfume Exclusivo",
-  "descripcion" : "Diseño moderno y elegante.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 586.04
-  },
-  "inventario" : {
-    "disponible" : 24,
-    "vendidos" : 74
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/40_1.jpg",
-    "textoAlternativo" : "Imagen principal de Perfume Exclusivo"
-  }, {
-    "url" : "http://img.com/40_2.jpg",
-    "textoAlternativo" : "Vista lateral de Perfume Exclusivo"
-  } ],
-  "vendedor" : {
-    "id" : "s8",
-    "nombre" : "ElectroMundo",
-    "reputacion" : 4.1
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u5",
-    "calificacion" : 5,
-    "comentario" : "Muy buen producto"
-  }, {
-    "usuarioId" : "u18",
-    "calificacion" : 3,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u4",
-    "calificacion" : 4,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u17",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Puede devolverse en 30 días."
-  } ]
-}, {
-  "id" : "p43",
-  "titulo" : "Drone Profesional",
-  "descripcion" : "Recomendado por expertos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 362.68
-  },
-  "inventario" : {
-    "disponible" : 12,
-    "vendidos" : 312
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/43_1.jpg",
-    "textoAlternativo" : "Imagen principal de Drone Profesional"
-  }, {
-    "url" : "http://img.com/43_2.jpg",
-    "textoAlternativo" : "Vista lateral de Drone Profesional"
-  } ],
-  "vendedor" : {
-    "id" : "s9",
-    "nombre" : "Smart Shop",
-    "reputacion" : 3.7
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u6",
-    "calificacion" : 1,
-    "comentario" : "Muy buen producto"
-  }, {
-    "usuarioId" : "u2",
-    "calificacion" : 1,
-    "comentario" : "No cumplió mis expectativas"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u17",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Incluye todos los accesorios."
-  } ]
-}, {
-  "id" : "p42",
-  "titulo" : "Juguete Educativo",
-  "descripcion" : "Perfecto para regalar.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1996.16
-  },
-  "inventario" : {
-    "disponible" : 6,
-    "vendidos" : 324
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/42_1.jpg",
-    "textoAlternativo" : "Imagen principal de Juguete Educativo"
-  }, {
-    "url" : "http://img.com/42_2.jpg",
-    "textoAlternativo" : "Vista lateral de Juguete Educativo"
-  } ],
-  "vendedor" : {
-    "id" : "s10",
-    "nombre" : "Casa Hogar",
-    "reputacion" : 3.1
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u9",
-    "calificacion" : 5,
-    "comentario" : "Muy buen producto"
-  }, {
-    "usuarioId" : "u3",
-    "calificacion" : 4,
-    "comentario" : "Satisfecho con la compra"
-  }, {
-    "usuarioId" : "u1",
-    "calificacion" : 1,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u2",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "Puede devolverse en 30 días."
-  } ]
-}, {
-  "id" : "p45",
-  "titulo" : "Bicicleta de Montaña",
-  "descripcion" : "Ideal para el uso diario.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 347.23
-  },
-  "inventario" : {
-    "disponible" : 88,
-    "vendidos" : 357
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/45_1.jpg",
-    "textoAlternativo" : "Imagen principal de Bicicleta de Montaña"
-  }, {
-    "url" : "http://img.com/45_2.jpg",
-    "textoAlternativo" : "Vista lateral de Bicicleta de Montaña"
-  } ],
-  "vendedor" : {
-    "id" : "s2",
-    "nombre" : "Tech Store",
-    "reputacion" : 4.3
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u7",
-    "calificacion" : 1,
-    "comentario" : "Muy buen producto"
-  }, {
-    "usuarioId" : "u1",
-    "calificacion" : 5,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u14",
-    "calificacion" : 4,
-    "comentario" : "Podría ser mejor"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u5",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "Sí, es resistente al agua."
-  } ]
-}, {
-  "id" : "p44",
-  "titulo" : "Patineta Eléctrica",
-  "descripcion" : "Compacto y fácil de usar.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1895.83
-  },
-  "inventario" : {
-    "disponible" : 20,
-    "vendidos" : 76
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/44_1.jpg",
-    "textoAlternativo" : "Imagen principal de Patineta Eléctrica"
-  }, {
-    "url" : "http://img.com/44_2.jpg",
-    "textoAlternativo" : "Vista lateral de Patineta Eléctrica"
-  } ],
-  "vendedor" : {
-    "id" : "s4",
-    "nombre" : "ElectroMundo",
-    "reputacion" : 4.1
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u14",
-    "calificacion" : 2,
-    "comentario" : "Podría ser mejor"
-  }, {
-    "usuarioId" : "u11",
-    "calificacion" : 3,
-    "comentario" : "Satisfecho con la compra"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u4",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "El envío tarda entre 3 y 5 días."
-  } ]
-}, {
-  "id" : "p47",
-  "titulo" : "Impresora Multifuncional",
-  "descripcion" : "Incluye garantía de un año.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1538.46
-  },
-  "inventario" : {
-    "disponible" : 93,
-    "vendidos" : 257
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/47_1.jpg",
-    "textoAlternativo" : "Imagen principal de Impresora Multifuncional"
-  }, {
-    "url" : "http://img.com/47_2.jpg",
-    "textoAlternativo" : "Vista lateral de Impresora Multifuncional"
-  } ],
-  "vendedor" : {
-    "id" : "s8",
-    "nombre" : "Gamer World",
-    "reputacion" : 3.9
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u18",
-    "calificacion" : 1,
-    "comentario" : "No cumplió mis expectativas"
-  }, {
-    "usuarioId" : "u6",
-    "calificacion" : 4,
-    "comentario" : "Excelente calidad"
-  }, {
-    "usuarioId" : "u20",
-    "calificacion" : 4,
-    "comentario" : "Muy buen producto"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u14",
-    "pregunta" : "¿Cuánto tarda el envío?",
-    "respuesta" : "Puede devolverse en 30 días."
-  }, {
-    "usuarioId" : "u10",
-    "pregunta" : "¿Se puede devolver?",
-    "respuesta" : "Sí, garantía de 1 año."
-  } ]
-}, {
-  "id" : "p46",
-  "titulo" : "Scooter Eléctrico",
-  "descripcion" : "Edición limitada.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1138.9
-  },
-  "inventario" : {
-    "disponible" : 56,
-    "vendidos" : 362
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/46_1.jpg",
-    "textoAlternativo" : "Imagen principal de Scooter Eléctrico"
-  }, {
-    "url" : "http://img.com/46_2.jpg",
-    "textoAlternativo" : "Vista lateral de Scooter Eléctrico"
-  } ],
-  "vendedor" : {
-    "id" : "s1",
-    "nombre" : "Deportes Ya",
-    "reputacion" : 3.5
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u8",
-    "calificacion" : 3,
-    "comentario" : "Podría ser mejor"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u1",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "Incluye todos los accesorios."
-  } ]
-}, {
-  "id" : "p49",
-  "titulo" : "Cargador Portátil",
-  "descripcion" : "Materiales resistentes y duraderos.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 325.11
-  },
-  "inventario" : {
-    "disponible" : 97,
-    "vendidos" : 382
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/49_1.jpg",
-    "textoAlternativo" : "Imagen principal de Cargador Portátil"
-  }, {
-    "url" : "http://img.com/49_2.jpg",
-    "textoAlternativo" : "Vista lateral de Cargador Portátil"
-  } ],
-  "vendedor" : {
-    "id" : "s10",
-    "nombre" : "Smart Shop",
-    "reputacion" : 4.7
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u5",
-    "calificacion" : 5,
-    "comentario" : "No cumplió mis expectativas"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u14",
-    "pregunta" : "¿Tiene garantía?",
-    "respuesta" : "Sí, garantía de 1 año."
-  }, {
-    "usuarioId" : "u15",
-    "pregunta" : "¿Incluye accesorios?",
-    "respuesta" : "Sí, garantía de 1 año."
-  } ]
-}, {
-  "id" : "p48",
-  "titulo" : "Proyector HD",
-  "descripcion" : "Alta calidad y rendimiento.",
-  "precio" : {
-    "moneda" : "USD",
-    "monto" : 1642.69
-  },
-  "inventario" : {
-    "disponible" : 91,
-    "vendidos" : 106
-  },
-  "imagenes" : [ {
-    "url" : "http://img.com/48_1.jpg",
-    "textoAlternativo" : "Imagen principal de Proyector HD"
-  }, {
-    "url" : "http://img.com/48_2.jpg",
-    "textoAlternativo" : "Vista lateral de Proyector HD"
-  } ],
-  "vendedor" : {
-    "id" : "s2",
-    "nombre" : "Gamer World",
-    "reputacion" : 4.8
-  },
-  "reseñas" : [ {
-    "usuarioId" : "u2",
-    "calificacion" : 2,
-    "comentario" : "Excelente calidad"
-  } ],
-  "preguntas" : [ {
-    "usuarioId" : "u9",
-    "pregunta" : "¿Es resistente al agua?",
-    "respuesta" : "El envío tarda entre 3 y 5 días."
-  } ]
-} ]
+[
+    {
+        "id": "p1",
+        "titulo": "Laptop Gamer",
+        "descripcion": "Compacto y fácil de usar.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 854.57
+        },
+        "inventario": {
+            "disponible": 30,
+            "vendidos": 273
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/1_1.jpg",
+                "textoAlternativo": "Imagen principal de Laptop Gamer"
+            },
+            {
+                "url": "http://img.com/1_2.jpg",
+                "textoAlternativo": "Vista lateral de Laptop Gamer"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u10",
+                "calificacion": 1,
+                "comentario": "Excelente calidad"
+            },
+            {
+                "usuarioId": "u7",
+                "calificacion": 5,
+                "comentario": "No cumplió mis expectativas"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u1",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Incluye todos los accesorios."
+            },
+            {
+                "usuarioId": "u4",
+                "pregunta": "¿Tiene garantía?",
+                "respuesta": "Puede devolverse en 30 días."
+            }
+        ],
+        "vendedorId": "s1"
+    },
+    {
+        "id": "p2",
+        "titulo": "Smartphone Pro",
+        "descripcion": "Recomendado por expertos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1727.41
+        },
+        "inventario": {
+            "disponible": 43,
+            "vendidos": 97
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/2_1.jpg",
+                "textoAlternativo": "Imagen principal de Smartphone Pro"
+            },
+            {
+                "url": "http://img.com/2_2.jpg",
+                "textoAlternativo": "Vista lateral de Smartphone Pro"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u13",
+                "calificacion": 5,
+                "comentario": "Excelente calidad"
+            },
+            {
+                "usuarioId": "u2",
+                "calificacion": 3,
+                "comentario": "Satisfecho con la compra"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u17",
+                "pregunta": "¿Tiene garantía?",
+                "respuesta": "Sí, es resistente al agua."
+            },
+            {
+                "usuarioId": "u8",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s2"
+    },
+    {
+        "id": "p3",
+        "titulo": "Televisor 55 pulgadas",
+        "descripcion": "Diseño moderno y elegante.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 27.72
+        },
+        "inventario": {
+            "disponible": 98,
+            "vendidos": 71
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/3_1.jpg",
+                "textoAlternativo": "Imagen principal de Televisor 55 pulgadas"
+            },
+            {
+                "url": "http://img.com/3_2.jpg",
+                "textoAlternativo": "Vista lateral de Televisor 55 pulgadas"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u12",
+                "calificacion": 3,
+                "comentario": "Muy buen producto"
+            },
+            {
+                "usuarioId": "u14",
+                "calificacion": 3,
+                "comentario": "No cumplió mis expectativas"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u17",
+                "pregunta": "¿Tiene garantía?",
+                "respuesta": "Incluye todos los accesorios."
+            }
+        ],
+        "vendedorId": "s7"
+    },
+    {
+        "id": "p4",
+        "titulo": "Auriculares Bluetooth",
+        "descripcion": "Materiales resistentes y duraderos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 731.2
+        },
+        "inventario": {
+            "disponible": 99,
+            "vendidos": 28
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/4_1.jpg",
+                "textoAlternativo": "Imagen principal de Auriculares Bluetooth"
+            },
+            {
+                "url": "http://img.com/4_2.jpg",
+                "textoAlternativo": "Vista lateral de Auriculares Bluetooth"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u10",
+                "calificacion": 1,
+                "comentario": "Excelente calidad"
+            },
+            {
+                "usuarioId": "u4",
+                "calificacion": 1,
+                "comentario": "Excelente calidad"
+            },
+            {
+                "usuarioId": "u6",
+                "calificacion": 4,
+                "comentario": "No cumplió mis expectativas"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u10",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s5"
+    },
+    {
+        "id": "p5",
+        "titulo": "Consola de videojuegos",
+        "descripcion": "Compacto y fácil de usar.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1809.1
+        },
+        "inventario": {
+            "disponible": 44,
+            "vendidos": 3
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/5_1.jpg",
+                "textoAlternativo": "Imagen principal de Consola de videojuegos"
+            },
+            {
+                "url": "http://img.com/5_2.jpg",
+                "textoAlternativo": "Vista lateral de Consola de videojuegos"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u18",
+                "calificacion": 3,
+                "comentario": "Muy buen producto"
+            },
+            {
+                "usuarioId": "u4",
+                "calificacion": 2,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u18",
+                "calificacion": 4,
+                "comentario": "Podría ser mejor"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u1",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "Incluye todos los accesorios."
+            },
+            {
+                "usuarioId": "u19",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "Incluye todos los accesorios."
+            }
+        ],
+        "vendedorId": "s1"
+    },
+    {
+        "id": "p6",
+        "titulo": "Cámara Fotográfica",
+        "descripcion": "Materiales resistentes y duraderos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1158.15
+        },
+        "inventario": {
+            "disponible": 100,
+            "vendidos": 353
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/6_1.jpg",
+                "textoAlternativo": "Imagen principal de Cámara Fotográfica"
+            },
+            {
+                "url": "http://img.com/6_2.jpg",
+                "textoAlternativo": "Vista lateral de Cámara Fotográfica"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u15",
+                "calificacion": 4,
+                "comentario": "Satisfecho con la compra"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u2",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s10"
+    },
+    {
+        "id": "p7",
+        "titulo": "Smartwatch Deportivo",
+        "descripcion": "Última generación.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 443.3
+        },
+        "inventario": {
+            "disponible": 66,
+            "vendidos": 149
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/7_1.jpg",
+                "textoAlternativo": "Imagen principal de Smartwatch Deportivo"
+            },
+            {
+                "url": "http://img.com/7_2.jpg",
+                "textoAlternativo": "Vista lateral de Smartwatch Deportivo"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u15",
+                "calificacion": 4,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u6",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "El envío tarda entre 3 y 5 días."
+            }
+        ],
+        "vendedorId": "s2"
+    },
+    {
+        "id": "p8",
+        "titulo": "Tablet 10 pulgadas",
+        "descripcion": "Última generación.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 636.31
+        },
+        "inventario": {
+            "disponible": 9,
+            "vendidos": 334
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/8_1.jpg",
+                "textoAlternativo": "Imagen principal de Tablet 10 pulgadas"
+            },
+            {
+                "url": "http://img.com/8_2.jpg",
+                "textoAlternativo": "Vista lateral de Tablet 10 pulgadas"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u19",
+                "calificacion": 5,
+                "comentario": "Podría ser mejor"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u15",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Sí, garantía de 1 año."
+            }
+        ],
+        "vendedorId": "s6"
+    },
+    {
+        "id": "p9",
+        "titulo": "Aspiradora Robot",
+        "descripcion": "Alta calidad y rendimiento.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1289.73
+        },
+        "inventario": {
+            "disponible": 97,
+            "vendidos": 457
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/9_1.jpg",
+                "textoAlternativo": "Imagen principal de Aspiradora Robot"
+            },
+            {
+                "url": "http://img.com/9_2.jpg",
+                "textoAlternativo": "Vista lateral de Aspiradora Robot"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u14",
+                "calificacion": 5,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u11",
+                "calificacion": 4,
+                "comentario": "Podría ser mejor"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u19",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Sí, garantía de 1 año."
+            },
+            {
+                "usuarioId": "u8",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "Sí, garantía de 1 año."
+            }
+        ],
+        "vendedorId": "s8"
+    },
+    {
+        "id": "p10",
+        "titulo": "Refrigerador Doble Puerta",
+        "descripcion": "Recomendado por expertos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1730.11
+        },
+        "inventario": {
+            "disponible": 13,
+            "vendidos": 415
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/10_1.jpg",
+                "textoAlternativo": "Imagen principal de Refrigerador Doble Puerta"
+            },
+            {
+                "url": "http://img.com/10_2.jpg",
+                "textoAlternativo": "Vista lateral de Refrigerador Doble Puerta"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u2",
+                "calificacion": 3,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u2",
+                "calificacion": 3,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u14",
+                "calificacion": 2,
+                "comentario": "Podría ser mejor"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u14",
+                "pregunta": "¿Tiene garantía?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s10"
+    },
+    {
+        "id": "p11",
+        "titulo": "Horno Microondas",
+        "descripcion": "Alta calidad y rendimiento.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 763.71
+        },
+        "inventario": {
+            "disponible": 13,
+            "vendidos": 320
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/11_1.jpg",
+                "textoAlternativo": "Imagen principal de Horno Microondas"
+            },
+            {
+                "url": "http://img.com/11_2.jpg",
+                "textoAlternativo": "Vista lateral de Horno Microondas"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u20",
+                "calificacion": 3,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u9",
+                "pregunta": "¿Tiene garantía?",
+                "respuesta": "Incluye todos los accesorios."
+            },
+            {
+                "usuarioId": "u15",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s6"
+    },
+    {
+        "id": "p12",
+        "titulo": "Lavadora Automática",
+        "descripcion": "Ideal para el uso diario.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1488.7
+        },
+        "inventario": {
+            "disponible": 38,
+            "vendidos": 213
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/12_1.jpg",
+                "textoAlternativo": "Imagen principal de Lavadora Automática"
+            },
+            {
+                "url": "http://img.com/12_2.jpg",
+                "textoAlternativo": "Vista lateral de Lavadora Automática"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u6",
+                "calificacion": 5,
+                "comentario": "No cumplió mis expectativas"
+            },
+            {
+                "usuarioId": "u17",
+                "calificacion": 2,
+                "comentario": "Excelente calidad"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u16",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "Sí, garantía de 1 año."
+            }
+        ],
+        "vendedorId": "s6"
+    },
+    {
+        "id": "p13",
+        "titulo": "Secadora de Ropa",
+        "descripcion": "Alta calidad y rendimiento.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 805.79
+        },
+        "inventario": {
+            "disponible": 5,
+            "vendidos": 276
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/13_1.jpg",
+                "textoAlternativo": "Imagen principal de Secadora de Ropa"
+            },
+            {
+                "url": "http://img.com/13_2.jpg",
+                "textoAlternativo": "Vista lateral de Secadora de Ropa"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u17",
+                "calificacion": 4,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u3",
+                "calificacion": 4,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u1",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Sí, garantía de 1 año."
+            },
+            {
+                "usuarioId": "u12",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s8"
+    },
+    {
+        "id": "p14",
+        "titulo": "Cafetera Espresso",
+        "descripcion": "Compacto y fácil de usar.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1156.03
+        },
+        "inventario": {
+            "disponible": 82,
+            "vendidos": 471
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/14_1.jpg",
+                "textoAlternativo": "Imagen principal de Cafetera Espresso"
+            },
+            {
+                "url": "http://img.com/14_2.jpg",
+                "textoAlternativo": "Vista lateral de Cafetera Espresso"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u8",
+                "calificacion": 4,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u20",
+                "calificacion": 4,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u4",
+                "calificacion": 5,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u3",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "Puede devolverse en 30 días."
+            }
+        ],
+        "vendedorId": "s2"
+    },
+    {
+        "id": "p15",
+        "titulo": "Parlante Inteligente",
+        "descripcion": "Compacto y fácil de usar.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 374.11
+        },
+        "inventario": {
+            "disponible": 89,
+            "vendidos": 414
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/15_1.jpg",
+                "textoAlternativo": "Imagen principal de Parlante Inteligente"
+            },
+            {
+                "url": "http://img.com/15_2.jpg",
+                "textoAlternativo": "Vista lateral de Parlante Inteligente"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u9",
+                "calificacion": 1,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u18",
+                "calificacion": 3,
+                "comentario": "Excelente calidad"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u4",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "Sí, garantía de 1 año."
+            },
+            {
+                "usuarioId": "u17",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Puede devolverse en 30 días."
+            }
+        ],
+        "vendedorId": "s8"
+    },
+    {
+        "id": "p16",
+        "titulo": "Teclado Mecánico",
+        "descripcion": "Ideal para el uso diario.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 513.2
+        },
+        "inventario": {
+            "disponible": 40,
+            "vendidos": 436
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/16_1.jpg",
+                "textoAlternativo": "Imagen principal de Teclado Mecánico"
+            },
+            {
+                "url": "http://img.com/16_2.jpg",
+                "textoAlternativo": "Vista lateral de Teclado Mecánico"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u3",
+                "calificacion": 3,
+                "comentario": "No cumplió mis expectativas"
+            },
+            {
+                "usuarioId": "u13",
+                "calificacion": 2,
+                "comentario": "Satisfecho con la compra"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u17",
+                "pregunta": "¿Tiene garantía?",
+                "respuesta": "Puede devolverse en 30 días."
+            }
+        ],
+        "vendedorId": "s1"
+    },
+    {
+        "id": "p17",
+        "titulo": "Mouse Inalámbrico",
+        "descripcion": "Recomendado por expertos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 679.07
+        },
+        "inventario": {
+            "disponible": 34,
+            "vendidos": 30
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/17_1.jpg",
+                "textoAlternativo": "Imagen principal de Mouse Inalámbrico"
+            },
+            {
+                "url": "http://img.com/17_2.jpg",
+                "textoAlternativo": "Vista lateral de Mouse Inalámbrico"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u1",
+                "calificacion": 4,
+                "comentario": "No cumplió mis expectativas"
+            },
+            {
+                "usuarioId": "u4",
+                "calificacion": 3,
+                "comentario": "No cumplió mis expectativas"
+            },
+            {
+                "usuarioId": "u1",
+                "calificacion": 3,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u14",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "Puede devolverse en 30 días."
+            }
+        ],
+        "vendedorId": "s4"
+    },
+    {
+        "id": "p18",
+        "titulo": "Silla Ergonómica",
+        "descripcion": "Alta calidad y rendimiento.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1151.18
+        },
+        "inventario": {
+            "disponible": 64,
+            "vendidos": 104
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/18_1.jpg",
+                "textoAlternativo": "Imagen principal de Silla Ergonómica"
+            },
+            {
+                "url": "http://img.com/18_2.jpg",
+                "textoAlternativo": "Vista lateral de Silla Ergonómica"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u20",
+                "calificacion": 3,
+                "comentario": "Muy buen producto"
+            },
+            {
+                "usuarioId": "u9",
+                "calificacion": 1,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u7",
+                "calificacion": 2,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u9",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "El envío tarda entre 3 y 5 días."
+            }
+        ],
+        "vendedorId": "s5"
+    },
+    {
+        "id": "p19",
+        "titulo": "Escritorio Ajustable",
+        "descripcion": "Perfecto para regalar.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 926.74
+        },
+        "inventario": {
+            "disponible": 28,
+            "vendidos": 82
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/19_1.jpg",
+                "textoAlternativo": "Imagen principal de Escritorio Ajustable"
+            },
+            {
+                "url": "http://img.com/19_2.jpg",
+                "textoAlternativo": "Vista lateral de Escritorio Ajustable"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u15",
+                "calificacion": 1,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u2",
+                "calificacion": 1,
+                "comentario": "Podría ser mejor"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u18",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "El envío tarda entre 3 y 5 días."
+            },
+            {
+                "usuarioId": "u7",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "Incluye todos los accesorios."
+            }
+        ],
+        "vendedorId": "s9"
+    },
+    {
+        "id": "p20",
+        "titulo": "Monitor 27 pulgadas",
+        "descripcion": "Incluye garantía de un año.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 193.94
+        },
+        "inventario": {
+            "disponible": 66,
+            "vendidos": 78
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/20_1.jpg",
+                "textoAlternativo": "Imagen principal de Monitor 27 pulgadas"
+            },
+            {
+                "url": "http://img.com/20_2.jpg",
+                "textoAlternativo": "Vista lateral de Monitor 27 pulgadas"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u5",
+                "calificacion": 2,
+                "comentario": "Podría ser mejor"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u12",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Incluye todos los accesorios."
+            },
+            {
+                "usuarioId": "u16",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s9"
+    },
+    {
+        "id": "p21",
+        "titulo": "Chaqueta de Cuero",
+        "descripcion": "Perfecto para regalar.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1999.8
+        },
+        "inventario": {
+            "disponible": 69,
+            "vendidos": 334
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/21_1.jpg",
+                "textoAlternativo": "Imagen principal de Chaqueta de Cuero"
+            },
+            {
+                "url": "http://img.com/21_2.jpg",
+                "textoAlternativo": "Vista lateral de Chaqueta de Cuero"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u19",
+                "calificacion": 3,
+                "comentario": "Muy buen producto"
+            },
+            {
+                "usuarioId": "u5",
+                "calificacion": 2,
+                "comentario": "Excelente calidad"
+            },
+            {
+                "usuarioId": "u16",
+                "calificacion": 5,
+                "comentario": "Satisfecho con la compra"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u9",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "Sí, es resistente al agua."
+            },
+            {
+                "usuarioId": "u6",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "El envío tarda entre 3 y 5 días."
+            }
+        ],
+        "vendedorId": "s3"
+    },
+    {
+        "id": "p22",
+        "titulo": "Zapatillas Deportivas",
+        "descripcion": "Alta calidad y rendimiento.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1297.93
+        },
+        "inventario": {
+            "disponible": 60,
+            "vendidos": 71
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/22_1.jpg",
+                "textoAlternativo": "Imagen principal de Zapatillas Deportivas"
+            },
+            {
+                "url": "http://img.com/22_2.jpg",
+                "textoAlternativo": "Vista lateral de Zapatillas Deportivas"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u10",
+                "calificacion": 1,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u18",
+                "calificacion": 2,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u10",
+                "calificacion": 4,
+                "comentario": "Excelente calidad"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u16",
+                "pregunta": "¿Tiene garantía?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s5"
+    },
+    {
+        "id": "p23",
+        "titulo": "Bolso de Mano",
+        "descripcion": "Incluye garantía de un año.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1276.85
+        },
+        "inventario": {
+            "disponible": 40,
+            "vendidos": 356
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/23_1.jpg",
+                "textoAlternativo": "Imagen principal de Bolso de Mano"
+            },
+            {
+                "url": "http://img.com/23_2.jpg",
+                "textoAlternativo": "Vista lateral de Bolso de Mano"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u14",
+                "calificacion": 2,
+                "comentario": "Excelente calidad"
+            },
+            {
+                "usuarioId": "u6",
+                "calificacion": 5,
+                "comentario": "Podría ser mejor"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u9",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "Sí, garantía de 1 año."
+            }
+        ],
+        "vendedorId": "s10"
+    },
+    {
+        "id": "p24",
+        "titulo": "Reloj de Pulsera",
+        "descripcion": "Ideal para el uso diario.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 37.32
+        },
+        "inventario": {
+            "disponible": 16,
+            "vendidos": 314
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/24_1.jpg",
+                "textoAlternativo": "Imagen principal de Reloj de Pulsera"
+            },
+            {
+                "url": "http://img.com/24_2.jpg",
+                "textoAlternativo": "Vista lateral de Reloj de Pulsera"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u12",
+                "calificacion": 4,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u12",
+                "calificacion": 5,
+                "comentario": "Excelente calidad"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u8",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "Puede devolverse en 30 días."
+            }
+        ],
+        "vendedorId": "s3"
+    },
+    {
+        "id": "p25",
+        "titulo": "Lentes de Sol",
+        "descripcion": "Recomendado por expertos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 211.62
+        },
+        "inventario": {
+            "disponible": 76,
+            "vendidos": 383
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/25_1.jpg",
+                "textoAlternativo": "Imagen principal de Lentes de Sol"
+            },
+            {
+                "url": "http://img.com/25_2.jpg",
+                "textoAlternativo": "Vista lateral de Lentes de Sol"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u8",
+                "calificacion": 2,
+                "comentario": "No cumplió mis expectativas"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u16",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "Sí, es resistente al agua."
+            },
+            {
+                "usuarioId": "u12",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s3"
+    },
+    {
+        "id": "p26",
+        "titulo": "Cinturón de Cuero",
+        "descripcion": "Edición limitada.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1029.53
+        },
+        "inventario": {
+            "disponible": 48,
+            "vendidos": 109
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/26_1.jpg",
+                "textoAlternativo": "Imagen principal de Cinturón de Cuero"
+            },
+            {
+                "url": "http://img.com/26_2.jpg",
+                "textoAlternativo": "Vista lateral de Cinturón de Cuero"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u15",
+                "calificacion": 2,
+                "comentario": "No cumplió mis expectativas"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u6",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "Incluye todos los accesorios."
+            },
+            {
+                "usuarioId": "u17",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "Sí, garantía de 1 año."
+            }
+        ],
+        "vendedorId": "s9"
+    },
+    {
+        "id": "p27",
+        "titulo": "Billetera de Piel",
+        "descripcion": "Materiales resistentes y duraderos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 152.35
+        },
+        "inventario": {
+            "disponible": 9,
+            "vendidos": 124
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/27_1.jpg",
+                "textoAlternativo": "Imagen principal de Billetera de Piel"
+            },
+            {
+                "url": "http://img.com/27_2.jpg",
+                "textoAlternativo": "Vista lateral de Billetera de Piel"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u7",
+                "calificacion": 5,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u19",
+                "calificacion": 4,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u4",
+                "calificacion": 5,
+                "comentario": "No cumplió mis expectativas"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u4",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "El envío tarda entre 3 y 5 días."
+            }
+        ],
+        "vendedorId": "s1"
+    },
+    {
+        "id": "p28",
+        "titulo": "Pantalón Jeans",
+        "descripcion": "Incluye garantía de un año.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 649.2
+        },
+        "inventario": {
+            "disponible": 98,
+            "vendidos": 494
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/28_1.jpg",
+                "textoAlternativo": "Imagen principal de Pantalón Jeans"
+            },
+            {
+                "url": "http://img.com/28_2.jpg",
+                "textoAlternativo": "Vista lateral de Pantalón Jeans"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u3",
+                "calificacion": 5,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u5",
+                "calificacion": 3,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u20",
+                "calificacion": 5,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u3",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "El envío tarda entre 3 y 5 días."
+            },
+            {
+                "usuarioId": "u18",
+                "pregunta": "¿Tiene garantía?",
+                "respuesta": "Sí, garantía de 1 año."
+            }
+        ],
+        "vendedorId": "s7"
+    },
+    {
+        "id": "p29",
+        "titulo": "Camiseta Básica",
+        "descripcion": "Última generación.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 843.02
+        },
+        "inventario": {
+            "disponible": 45,
+            "vendidos": 366
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/29_1.jpg",
+                "textoAlternativo": "Imagen principal de Camiseta Básica"
+            },
+            {
+                "url": "http://img.com/29_2.jpg",
+                "textoAlternativo": "Vista lateral de Camiseta Básica"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u19",
+                "calificacion": 2,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u10",
+                "calificacion": 4,
+                "comentario": "Podría ser mejor"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u19",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "Incluye todos los accesorios."
+            }
+        ],
+        "vendedorId": "s10"
+    },
+    {
+        "id": "p30",
+        "titulo": "Vestido Casual",
+        "descripcion": "Materiales resistentes y duraderos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1206.84
+        },
+        "inventario": {
+            "disponible": 74,
+            "vendidos": 474
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/30_1.jpg",
+                "textoAlternativo": "Imagen principal de Vestido Casual"
+            },
+            {
+                "url": "http://img.com/30_2.jpg",
+                "textoAlternativo": "Vista lateral de Vestido Casual"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u7",
+                "calificacion": 4,
+                "comentario": "No cumplió mis expectativas"
+            },
+            {
+                "usuarioId": "u8",
+                "calificacion": 5,
+                "comentario": "Excelente calidad"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u11",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "El envío tarda entre 3 y 5 días."
+            }
+        ],
+        "vendedorId": "s5"
+    },
+    {
+        "id": "p31",
+        "titulo": "Collar de Plata",
+        "descripcion": "Materiales resistentes y duraderos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1960.71
+        },
+        "inventario": {
+            "disponible": 9,
+            "vendidos": 68
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/31_1.jpg",
+                "textoAlternativo": "Imagen principal de Collar de Plata"
+            },
+            {
+                "url": "http://img.com/31_2.jpg",
+                "textoAlternativo": "Vista lateral de Collar de Plata"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u6",
+                "calificacion": 1,
+                "comentario": "Podría ser mejor"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u8",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "Sí, garantía de 1 año."
+            },
+            {
+                "usuarioId": "u3",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "El envío tarda entre 3 y 5 días."
+            }
+        ],
+        "vendedorId": "s6"
+    },
+    {
+        "id": "p32",
+        "titulo": "Aretes de Oro",
+        "descripcion": "Ideal para el uso diario.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 92.04
+        },
+        "inventario": {
+            "disponible": 10,
+            "vendidos": 144
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/32_1.jpg",
+                "textoAlternativo": "Imagen principal de Aretes de Oro"
+            },
+            {
+                "url": "http://img.com/32_2.jpg",
+                "textoAlternativo": "Vista lateral de Aretes de Oro"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u11",
+                "calificacion": 4,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u20",
+                "calificacion": 4,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u12",
+                "pregunta": "¿Tiene garantía?",
+                "respuesta": "Incluye todos los accesorios."
+            },
+            {
+                "usuarioId": "u6",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Incluye todos los accesorios."
+            }
+        ],
+        "vendedorId": "s6"
+    },
+    {
+        "id": "p33",
+        "titulo": "Pulsera de Acero",
+        "descripcion": "Compacto y fácil de usar.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 752.1
+        },
+        "inventario": {
+            "disponible": 97,
+            "vendidos": 165
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/33_1.jpg",
+                "textoAlternativo": "Imagen principal de Pulsera de Acero"
+            },
+            {
+                "url": "http://img.com/33_2.jpg",
+                "textoAlternativo": "Vista lateral de Pulsera de Acero"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u12",
+                "calificacion": 1,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u11",
+                "calificacion": 4,
+                "comentario": "Satisfecho con la compra"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u19",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "Sí, es resistente al agua."
+            },
+            {
+                "usuarioId": "u8",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s1"
+    },
+    {
+        "id": "p34",
+        "titulo": "Sombrero de Verano",
+        "descripcion": "Edición limitada.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1448.93
+        },
+        "inventario": {
+            "disponible": 51,
+            "vendidos": 317
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/34_1.jpg",
+                "textoAlternativo": "Imagen principal de Sombrero de Verano"
+            },
+            {
+                "url": "http://img.com/34_2.jpg",
+                "textoAlternativo": "Vista lateral de Sombrero de Verano"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u19",
+                "calificacion": 2,
+                "comentario": "Excelente calidad"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u2",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "Incluye todos los accesorios."
+            },
+            {
+                "usuarioId": "u8",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "Sí, garantía de 1 año."
+            }
+        ],
+        "vendedorId": "s1"
+    },
+    {
+        "id": "p35",
+        "titulo": "Bufanda de Lana",
+        "descripcion": "Compacto y fácil de usar.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1156.16
+        },
+        "inventario": {
+            "disponible": 70,
+            "vendidos": 204
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/35_1.jpg",
+                "textoAlternativo": "Imagen principal de Bufanda de Lana"
+            },
+            {
+                "url": "http://img.com/35_2.jpg",
+                "textoAlternativo": "Vista lateral de Bufanda de Lana"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u9",
+                "calificacion": 2,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u1",
+                "calificacion": 4,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u6",
+                "calificacion": 1,
+                "comentario": "Satisfecho con la compra"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u15",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s1"
+    },
+    {
+        "id": "p36",
+        "titulo": "Guantes de Invierno",
+        "descripcion": "Ideal para el uso diario.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1867.24
+        },
+        "inventario": {
+            "disponible": 33,
+            "vendidos": 6
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/36_1.jpg",
+                "textoAlternativo": "Imagen principal de Guantes de Invierno"
+            },
+            {
+                "url": "http://img.com/36_2.jpg",
+                "textoAlternativo": "Vista lateral de Guantes de Invierno"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u10",
+                "calificacion": 2,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u1",
+                "calificacion": 5,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u6",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Incluye todos los accesorios."
+            }
+        ],
+        "vendedorId": "s6"
+    },
+    {
+        "id": "p37",
+        "titulo": "Chaqueta Impermeable",
+        "descripcion": "Incluye garantía de un año.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1446.8
+        },
+        "inventario": {
+            "disponible": 64,
+            "vendidos": 293
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/37_1.jpg",
+                "textoAlternativo": "Imagen principal de Chaqueta Impermeable"
+            },
+            {
+                "url": "http://img.com/37_2.jpg",
+                "textoAlternativo": "Vista lateral de Chaqueta Impermeable"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u17",
+                "calificacion": 3,
+                "comentario": "Muy buen producto"
+            },
+            {
+                "usuarioId": "u7",
+                "calificacion": 2,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u6",
+                "calificacion": 5,
+                "comentario": "No cumplió mis expectativas"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u1",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s2"
+    },
+    {
+        "id": "p38",
+        "titulo": "Botas de Montaña",
+        "descripcion": "Compacto y fácil de usar.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 544.33
+        },
+        "inventario": {
+            "disponible": 8,
+            "vendidos": 35
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/38_1.jpg",
+                "textoAlternativo": "Imagen principal de Botas de Montaña"
+            },
+            {
+                "url": "http://img.com/38_2.jpg",
+                "textoAlternativo": "Vista lateral de Botas de Montaña"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u13",
+                "calificacion": 4,
+                "comentario": "No cumplió mis expectativas"
+            },
+            {
+                "usuarioId": "u6",
+                "calificacion": 3,
+                "comentario": "No cumplió mis expectativas"
+            },
+            {
+                "usuarioId": "u8",
+                "calificacion": 2,
+                "comentario": "Excelente calidad"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u3",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Sí, garantía de 1 año."
+            }
+        ],
+        "vendedorId": "s7"
+    },
+    {
+        "id": "p39",
+        "titulo": "Sandalias de Playa",
+        "descripcion": "Materiales resistentes y duraderos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1673.33
+        },
+        "inventario": {
+            "disponible": 14,
+            "vendidos": 294
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/39_1.jpg",
+                "textoAlternativo": "Imagen principal de Sandalias de Playa"
+            },
+            {
+                "url": "http://img.com/39_2.jpg",
+                "textoAlternativo": "Vista lateral de Sandalias de Playa"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u20",
+                "calificacion": 3,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u20",
+                "calificacion": 1,
+                "comentario": "Excelente calidad"
+            },
+            {
+                "usuarioId": "u2",
+                "calificacion": 4,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u13",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s10"
+    },
+    {
+        "id": "p40",
+        "titulo": "Perfume Exclusivo",
+        "descripcion": "Diseño moderno y elegante.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 586.04
+        },
+        "inventario": {
+            "disponible": 24,
+            "vendidos": 74
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/40_1.jpg",
+                "textoAlternativo": "Imagen principal de Perfume Exclusivo"
+            },
+            {
+                "url": "http://img.com/40_2.jpg",
+                "textoAlternativo": "Vista lateral de Perfume Exclusivo"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u5",
+                "calificacion": 5,
+                "comentario": "Muy buen producto"
+            },
+            {
+                "usuarioId": "u18",
+                "calificacion": 3,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u4",
+                "calificacion": 4,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u17",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Puede devolverse en 30 días."
+            }
+        ],
+        "vendedorId": "s8"
+    },
+    {
+        "id": "p41",
+        "titulo": "Libro de Ciencia",
+        "descripcion": "Edición limitada.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1991.55
+        },
+        "inventario": {
+            "disponible": 38,
+            "vendidos": 36
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/41_1.jpg",
+                "textoAlternativo": "Imagen principal de Libro de Ciencia"
+            },
+            {
+                "url": "http://img.com/41_2.jpg",
+                "textoAlternativo": "Vista lateral de Libro de Ciencia"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u9",
+                "calificacion": 2,
+                "comentario": "No cumplió mis expectativas"
+            },
+            {
+                "usuarioId": "u6",
+                "calificacion": 5,
+                "comentario": "Satisfecho con la compra"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u16",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "Incluye todos los accesorios."
+            }
+        ],
+        "vendedorId": "s4"
+    },
+    {
+        "id": "p42",
+        "titulo": "Juguete Educativo",
+        "descripcion": "Perfecto para regalar.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1996.16
+        },
+        "inventario": {
+            "disponible": 6,
+            "vendidos": 324
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/42_1.jpg",
+                "textoAlternativo": "Imagen principal de Juguete Educativo"
+            },
+            {
+                "url": "http://img.com/42_2.jpg",
+                "textoAlternativo": "Vista lateral de Juguete Educativo"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u9",
+                "calificacion": 5,
+                "comentario": "Muy buen producto"
+            },
+            {
+                "usuarioId": "u3",
+                "calificacion": 4,
+                "comentario": "Satisfecho con la compra"
+            },
+            {
+                "usuarioId": "u1",
+                "calificacion": 1,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u2",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "Puede devolverse en 30 días."
+            }
+        ],
+        "vendedorId": "s10"
+    },
+    {
+        "id": "p43",
+        "titulo": "Drone Profesional",
+        "descripcion": "Recomendado por expertos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 362.68
+        },
+        "inventario": {
+            "disponible": 12,
+            "vendidos": 312
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/43_1.jpg",
+                "textoAlternativo": "Imagen principal de Drone Profesional"
+            },
+            {
+                "url": "http://img.com/43_2.jpg",
+                "textoAlternativo": "Vista lateral de Drone Profesional"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u6",
+                "calificacion": 1,
+                "comentario": "Muy buen producto"
+            },
+            {
+                "usuarioId": "u2",
+                "calificacion": 1,
+                "comentario": "No cumplió mis expectativas"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u17",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Incluye todos los accesorios."
+            }
+        ],
+        "vendedorId": "s9"
+    },
+    {
+        "id": "p44",
+        "titulo": "Patineta Eléctrica",
+        "descripcion": "Compacto y fácil de usar.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1895.83
+        },
+        "inventario": {
+            "disponible": 20,
+            "vendidos": 76
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/44_1.jpg",
+                "textoAlternativo": "Imagen principal de Patineta Eléctrica"
+            },
+            {
+                "url": "http://img.com/44_2.jpg",
+                "textoAlternativo": "Vista lateral de Patineta Eléctrica"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u14",
+                "calificacion": 2,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u11",
+                "calificacion": 3,
+                "comentario": "Satisfecho con la compra"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u4",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "El envío tarda entre 3 y 5 días."
+            }
+        ],
+        "vendedorId": "s4"
+    },
+    {
+        "id": "p45",
+        "titulo": "Bicicleta de Montaña",
+        "descripcion": "Ideal para el uso diario.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 347.23
+        },
+        "inventario": {
+            "disponible": 88,
+            "vendidos": 357
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/45_1.jpg",
+                "textoAlternativo": "Imagen principal de Bicicleta de Montaña"
+            },
+            {
+                "url": "http://img.com/45_2.jpg",
+                "textoAlternativo": "Vista lateral de Bicicleta de Montaña"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u7",
+                "calificacion": 1,
+                "comentario": "Muy buen producto"
+            },
+            {
+                "usuarioId": "u1",
+                "calificacion": 5,
+                "comentario": "Podría ser mejor"
+            },
+            {
+                "usuarioId": "u14",
+                "calificacion": 4,
+                "comentario": "Podría ser mejor"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u5",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "Sí, es resistente al agua."
+            }
+        ],
+        "vendedorId": "s2"
+    },
+    {
+        "id": "p46",
+        "titulo": "Scooter Eléctrico",
+        "descripcion": "Edición limitada.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1138.9
+        },
+        "inventario": {
+            "disponible": 56,
+            "vendidos": 362
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/46_1.jpg",
+                "textoAlternativo": "Imagen principal de Scooter Eléctrico"
+            },
+            {
+                "url": "http://img.com/46_2.jpg",
+                "textoAlternativo": "Vista lateral de Scooter Eléctrico"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u8",
+                "calificacion": 3,
+                "comentario": "Podría ser mejor"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u1",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "Incluye todos los accesorios."
+            }
+        ],
+        "vendedorId": "s1"
+    },
+    {
+        "id": "p47",
+        "titulo": "Impresora Multifuncional",
+        "descripcion": "Incluye garantía de un año.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1538.46
+        },
+        "inventario": {
+            "disponible": 93,
+            "vendidos": 257
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/47_1.jpg",
+                "textoAlternativo": "Imagen principal de Impresora Multifuncional"
+            },
+            {
+                "url": "http://img.com/47_2.jpg",
+                "textoAlternativo": "Vista lateral de Impresora Multifuncional"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u18",
+                "calificacion": 1,
+                "comentario": "No cumplió mis expectativas"
+            },
+            {
+                "usuarioId": "u6",
+                "calificacion": 4,
+                "comentario": "Excelente calidad"
+            },
+            {
+                "usuarioId": "u20",
+                "calificacion": 4,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u14",
+                "pregunta": "¿Cuánto tarda el envío?",
+                "respuesta": "Puede devolverse en 30 días."
+            },
+            {
+                "usuarioId": "u10",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "Sí, garantía de 1 año."
+            }
+        ],
+        "vendedorId": "s8"
+    },
+    {
+        "id": "p48",
+        "titulo": "Proyector HD",
+        "descripcion": "Alta calidad y rendimiento.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 1642.69
+        },
+        "inventario": {
+            "disponible": 91,
+            "vendidos": 106
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/48_1.jpg",
+                "textoAlternativo": "Imagen principal de Proyector HD"
+            },
+            {
+                "url": "http://img.com/48_2.jpg",
+                "textoAlternativo": "Vista lateral de Proyector HD"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u2",
+                "calificacion": 2,
+                "comentario": "Excelente calidad"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u9",
+                "pregunta": "¿Es resistente al agua?",
+                "respuesta": "El envío tarda entre 3 y 5 días."
+            }
+        ],
+        "vendedorId": "s2"
+    },
+    {
+        "id": "p49",
+        "titulo": "Cargador Portátil",
+        "descripcion": "Materiales resistentes y duraderos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 325.11
+        },
+        "inventario": {
+            "disponible": 97,
+            "vendidos": 382
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/49_1.jpg",
+                "textoAlternativo": "Imagen principal de Cargador Portátil"
+            },
+            {
+                "url": "http://img.com/49_2.jpg",
+                "textoAlternativo": "Vista lateral de Cargador Portátil"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u5",
+                "calificacion": 5,
+                "comentario": "No cumplió mis expectativas"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u14",
+                "pregunta": "¿Tiene garantía?",
+                "respuesta": "Sí, garantía de 1 año."
+            },
+            {
+                "usuarioId": "u15",
+                "pregunta": "¿Incluye accesorios?",
+                "respuesta": "Sí, garantía de 1 año."
+            }
+        ],
+        "vendedorId": "s10"
+    },
+    {
+        "id": "p50",
+        "titulo": "Disco Duro Externo",
+        "descripcion": "Materiales resistentes y duraderos.",
+        "precio": {
+            "moneda": "USD",
+            "monto": 286.95
+        },
+        "inventario": {
+            "disponible": 99,
+            "vendidos": 277
+        },
+        "imagenes": [
+            {
+                "url": "http://img.com/50_1.jpg",
+                "textoAlternativo": "Imagen principal de Disco Duro Externo"
+            },
+            {
+                "url": "http://img.com/50_2.jpg",
+                "textoAlternativo": "Vista lateral de Disco Duro Externo"
+            }
+        ],
+        "reseñas": [
+            {
+                "usuarioId": "u2",
+                "calificacion": 5,
+                "comentario": "No cumplió mis expectativas"
+            },
+            {
+                "usuarioId": "u1",
+                "calificacion": 5,
+                "comentario": "Muy buen producto"
+            },
+            {
+                "usuarioId": "u7",
+                "calificacion": 1,
+                "comentario": "Muy buen producto"
+            }
+        ],
+        "preguntas": [
+            {
+                "usuarioId": "u6",
+                "pregunta": "¿Se puede devolver?",
+                "respuesta": "El envío tarda entre 3 y 5 días."
+            },
+            {
+                "usuarioId": "u8",
+                "pregunta": "¿Tiene garantía?",
+                "respuesta": "Sí, garantía de 1 año."
+            }
+        ],
+        "vendedorId": "s6"
+    }
+]
